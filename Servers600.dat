@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServerList adsrc="1" ae="0" alias="" bgm="1" buycard="" cr="0" create="7" defaultServer="dx" font="" fontsize="" guideSkip="" hidePirateBtn="" hideWarBtn="" hidecf="0" hideelite="0" ident="600" lang="zh_CN" loadReport="1" logo="" maxLv="" mix="0" multiByte="1" nameLen="8" nosword="" onlyen="" pay="" rarity="" regentGate="" resetTime="" reward="" ro="" se="1" showTime="" sys="" ujjcheck="" wf="1" wk="" wtpn="">
+    <Server host="wlys600.snsfun.com" log="0" name="dx" platform="lequ" port="443,9118" preask="1" report="/BattleReport" resHost="s1.res.uqee.com,s2.res.uqee.com"/>
+    <GameEvent url="http://127.0.0.1:9103/player/state"/>
+    <Pay url="http://www.lequ.com/pay/index/game/9/s/{serverid}/loginname/{accname}"/>
+    <Main favname="乐趣网卧龙吟双线600区" favurl="" loginUrl="http://www.lequ.com/wly/" title="乐趣网卧龙吟双线600区" url="" welcome="欢迎来到乐趣网《卧龙吟》双线600区！"/>
+    <Indulge postUrl="http://www.lequ.com/api/wlyfcm" url="http://www.lequ.com/user/idcard"/>
+    <Bug posturl="" url=""/>
+    <NewbieCard url=""/>
+    <BBS url=""/>
+    <GuestReg url="javascript:top.showReg();"/>
+    <QQ gmqq="" payqq=""/>
+    <Limit activities="" buildings="" campaignId="" navyTrain="" windows=""/>
+    <Bind force="" label="" url=""/>
+    <BgList>i21.swf,i22.swf</BgList>
+</ServerList>

@@ -1,0 +1,11 @@
+{"wly": [{"CreateRole": ["CreateRole", "iLoginName"],
+             "RoleLogin": ["RoleLogin", "iLoginName"],
+             "RoleLogout": ["RoleLogout", "iLoginName", "dtLoginTime", "dtEvenTime", "iGameTime", "iRoleLevel"],
+             "Money": ["ConsumerRecords", "iLoginName", "iMoney"]},
+         {"8":["wly-86-021-"]}
+        ],
+"khbd": [{"CreateRole": ["CreateRole", "loginname"],
+             "RoleLogin": ["RoleLogin", "login_name"],
+             "RoleLogout": ["RoleLogout", "iLoginName", "dtLoginTime", "dtEvenTime", "iGameTime", "iRoleLevel"],
+             "Money": ["RoleCash", "loginname", "changed"]}]
+}
