@@ -91,3 +91,6 @@ if  __name__ == '__main__':
             print('{0}脚本执行成功！！{}'.format('\033[1;33m','\033[0m'))
     except Exception , e :
         print('%s 萌新合服出现问题: %s，请检查%s' % ('\033[1;33m',e,'\033[0m'))
+
+
+print('hahaha')
