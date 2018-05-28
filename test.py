@@ -1,50 +1,25 @@
-# class Fib(object):
-#     def __init__(self):
-#         self.a , self.b = 0,1
-#     def __iter__(self):
-#         return self
-#     def __next__(self):
-#         self.a ,self.b = self.b , self.a + self.b
-#         if self.a > 100:
-#             raise StopIteration
-#         print('hha')
-#         return self.a
-# for i in Fib():
-#     print(i)
+import multiprocessing
+import time
+import threading
 
-# class Fib(object):
-#     def __getitem__(self, n):
-#         a , b = 0 , 1
-#         for n in range(n):
-#             a ,b = b , a + b
-#         return a
-#
-# f = Fib()
-# print(f[10])
-# print(f[11])
-# print(f[12])
-# print(f[13])
+def thread_run():
+    print(threading.get_ident())
 
+def run(name):
+    time.sleep(2)
+    print(name)
+    t = threading.Thread(target=thread_run,)
+    t.start()
 
-class Fib(object):
-    def __getitem__(self, n):
-        if isinstance(n, int): # n是索引
-            a, b = 1, 1
-            for x in range(n):
-                a, b = b, a + b
-            return a
-        if isinstance(n, slice): # n是切片
-            start = n.start
-            stop = n.stop
-            if start is None:
-                start = 0
-            a, b = 1, 1
-            L = []
-            for x in range(stop):
-                if x >= start:
-                    L.append(a)
-                a, b = b, a + b
-            return L
+def main():
+    obj= []
+    for i in range(10):
+        p = multiprocessing.Process(target=run,args=('bob {}'.format(i),))
+        obj.append(p)
+    for i in obj:
+        i.start()
+    for i in obj:
+        i.join()
 
-f = Fib()
-print(f[:3])
+if __name__ == '__main__':
+    main()
