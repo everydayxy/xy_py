@@ -1,0 +1,4 @@
+INFO 2018-02-25 10:38:10,398 views 用户[yangshuai]登录成功!
+INFO 2018-02-25 10:40:08,033 views 杨帅正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：白，设备SN码：IMEI:013137008029030，申请时间：2018-02-25 10:40:08，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:013137008029030&curent_username=杨帅&mobile_current_user=杨帅">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:013137008029030&curent_username=杨帅&mobile_current_user=杨帅">不同意</a>
+INFO 2018-02-25 10:59:06,674 views 申请[ 设备类型：手机，设备型号：小米/xiaomi，设备颜色：黑，设备SN码：IMEI:865056023860337 ]通过
+INFO 2018-02-25 11:00:06,384 views 申请[ 设备类型：手机，设备型号：小米/xiaomi，设备颜色：黑，设备SN码：IMEI:865056023860337 ]通过

@@ -1,0 +1,6 @@
+INFO 2018-01-16 10:31:43,631 views 用户[lisulan]登录成功!
+INFO 2018-01-16 10:37:49,506 views 李素兰正在申请使用设备，设备类型：手机，设备型号：华为/huawei，设备颜色：黑，设备SN码：IEMI861022005720786，申请时间：2018-01-16 10:37:49，<a href="http://phone.uqee.com/queren/?state=yes&sn=IEMI861022005720786&curent_username=李素兰&mobile_current_user=孟路程">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IEMI861022005720786&curent_username=李素兰&mobile_current_user=孟路程">不同意</a>
+INFO 2018-01-16 10:38:00,335 views 申请[ 设备类型：手机，设备型号：华为/huawei，设备颜色：黑，设备SN码：IEMI861022005720786 ]通过
+INFO 2018-01-16 10:38:45,212 views 用户[menglucheng]登录成功!
+INFO 2018-01-16 10:38:53,278 views 申请[ 设备类型：手机，设备型号：华为/huawei，设备颜色：黑，设备SN码：IEMI861022005720786 ]通过
+WARNING 2018-01-16 10:52:44,829 base Not Found: /favicon.ico

@@ -1,0 +1,8 @@
+INFO 2017-11-30 15:38:32,457 views 用户[tangjun]登录成功!
+INFO 2017-11-30 15:39:15,748 views 唐俊正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI:012963009071239，申请时间：2017-11-30 15:39:15
+INFO 2017-11-30 15:42:45,794 views 唐俊正在申请使用设备，设备类型：苹果数据线，设备型号：苹果数据线，设备颜色：一根，设备SN码：05，申请时间：2017-11-30 15:42:45，<a href="http://phone.uqee.com/queren/?state=yes&sn=05&curent_username=唐俊&mobile_current_user=孙彦阁">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=05&curent_username=唐俊&mobile_current_user=孙彦阁">不同意</a>
+INFO 2017-11-30 15:42:57,417 views 申请[ 设备类型：苹果数据线，设备型号：苹果数据线，设备颜色：一根，设备SN码：05 ]通过
+INFO 2017-11-30 15:53:02,835 views 孙彦阁正在申请使用设备，设备类型：苹果数据线，设备型号：苹果数据线，设备颜色：一根，设备SN码：05，申请时间：2017-11-30 15:53:02，<a href="http://phone.uqee.com/queren/?state=yes&sn=05&curent_username=孙彦阁&mobile_current_user=唐俊">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=05&curent_username=孙彦阁&mobile_current_user=唐俊">不同意</a>
+INFO 2017-11-30 15:53:10,641 views 孙彦阁正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI:012963009071239，申请时间：2017-11-30 15:53:10，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:012963009071239&curent_username=孙彦阁&mobile_current_user=唐俊">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:012963009071239&curent_username=孙彦阁&mobile_current_user=唐俊">不同意</a>
+INFO 2017-11-30 15:55:10,878 views 申请[ 设备类型：苹果数据线，设备型号：苹果数据线，设备颜色：一根，设备SN码：05 ]通过
+INFO 2017-11-30 15:56:36,821 views 唐俊正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：白，设备SN码：IMEI/MEID013471003168703，申请时间：2017-11-30 15:56:36，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID013471003168703&curent_username=唐俊&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID013471003168703&curent_username=唐俊&mobile_current_user=温绍琨">不同意</a>

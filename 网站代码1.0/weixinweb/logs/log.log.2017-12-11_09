@@ -1,0 +1,4 @@
+INFO 2017-12-11 09:31:51,228 views 用户[shenbin]登录成功!
+INFO 2017-12-11 09:32:04,823 views 沈斌正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：白色，设备SN码：IMEI:356720082988257，申请时间：2017-12-11 09:32:04，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:356720082988257&curent_username=沈斌&mobile_current_user=王云霞">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:356720082988257&curent_username=沈斌&mobile_current_user=王云霞">不同意</a>
+INFO 2017-12-11 10:14:06,061 views 谢磊正在申请使用设备，设备类型：平板，设备型号：苹果/apple，设备颜色：白，设备SN码：序列号：DQWM2X4EFCM8，申请时间：2017-12-11 10:14:06，<a href="http://phone.uqee.com/queren/?state=yes&sn=序列号：DQWM2X4EFCM8&curent_username=谢磊&mobile_current_user=孙彦阁">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=序列号：DQWM2X4EFCM8&curent_username=谢磊&mobile_current_user=孙彦阁">不同意</a>
+INFO 2017-12-11 10:15:27,100 views 申请[ 设备类型：平板，设备型号：苹果/apple，设备颜色：白，设备SN码：序列号：DQWM2X4EFCM8 ]通过

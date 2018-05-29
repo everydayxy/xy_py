@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5; url={% url 'index' %}" />
+    <title>404</title>
+</head>
+<body>
+<h1 style="text-align: center">{{ msg }}</h1>
+<h3 style="text-align: center">3秒后自动返回首页，如果不能自动返回请点击</h3>
+<h4 style="text-align: center"><a  href="{% url 'index' %}">返回首页</a></h4>
+<h4 style="text-align: center"><a  href="{% url 'login' %}">返回登录页</a></h>
+</body>
+</html>

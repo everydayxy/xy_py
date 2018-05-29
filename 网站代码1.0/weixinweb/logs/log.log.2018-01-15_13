@@ -1,0 +1,5 @@
+INFO 2018-01-15 13:08:48,535 views 用户[wangnan]登录成功!
+WARNING 2018-01-15 13:08:49,405 base Not Found: /favicon.ico
+INFO 2018-01-15 13:09:06,846 views 王楠正在申请使用设备，设备类型：手机，设备型号：小米/xiaomi，设备颜色：黑，设备SN码：860311028436145，申请时间：2018-01-15 13:09:06，<a href="http://phone.uqee.com/queren/?state=yes&sn=860311028436145&curent_username=王楠&mobile_current_user=赖和平">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=860311028436145&curent_username=王楠&mobile_current_user=赖和平">不同意</a>
+INFO 2018-01-15 13:11:43,275 views 申请[ 设备类型：手机，设备型号：小米/xiaomi，设备颜色：黑，设备SN码：860311028436145 ]通过
+WARNING 2018-01-15 13:14:02,805 base Not Found: /favicon.ico

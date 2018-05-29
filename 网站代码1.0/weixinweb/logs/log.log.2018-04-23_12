@@ -1,0 +1,5 @@
+INFO 2018-04-23 12:00:15,707 views 用户[fanmeiqin]登录成功!
+INFO 2018-04-23 12:00:22,714 views 范美琴正在申请使用设备，设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI:861735030041619，申请时间：2018-04-23 12:00:22，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:861735030041619&curent_username=范美琴&mobile_current_user=罗西">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:861735030041619&curent_username=范美琴&mobile_current_user=罗西">不同意</a>
+INFO 2018-04-23 12:01:36,018 views 申请[ 设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI:861735030041619 ]通过
+INFO 2018-04-23 12:02:10,193 views 用户[luoxi]登录成功!
+INFO 2018-04-23 12:02:35,986 views 申请[ 设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI:861735030041619 ]通过

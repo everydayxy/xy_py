@@ -1,0 +1,5 @@
+INFO 2018-03-06 10:21:25,929 views 用户[lvyifeng]登录成功!
+WARNING 2018-03-06 10:21:26,404 base Not Found: /favicon.ico
+INFO 2018-03-06 10:39:30,810 views 吕一锋正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：白色，设备SN码：IMEI:356720082988257，申请时间：2018-03-06 10:39:30，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:356720082988257&curent_username=吕一锋&mobile_current_user=王云霞">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:356720082988257&curent_username=吕一锋&mobile_current_user=王云霞">不同意</a>
+INFO 2018-03-06 10:39:48,461 views 申请[ 设备类型：手机，设备型号：苹果/apple，设备颜色：白色，设备SN码：IMEI:356720082988257 ]通过
+INFO 2018-03-06 10:40:11,232 views 用户[wangyuxia]登录成功!

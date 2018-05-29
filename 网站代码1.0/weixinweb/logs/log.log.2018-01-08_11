@@ -1,0 +1,4 @@
+INFO 2018-01-09 13:14:26,464 views 用户[tangjun]登录成功!
+INFO 2018-01-09 13:15:09,215 views 唐俊正在申请使用设备，设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI864895024922518，申请时间：2018-01-09 13:15:09，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI864895024922518&curent_username=唐俊&mobile_current_user=杨银">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI864895024922518&curent_username=唐俊&mobile_current_user=杨银">不同意</a>
+INFO 2018-01-09 13:38:15,542 views 申请[ 设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI864895024922518 ]通过
+INFO 2018-01-09 13:39:05,904 views 用户[yangyin]登录成功!

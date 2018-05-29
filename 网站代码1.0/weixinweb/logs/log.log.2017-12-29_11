@@ -1,0 +1,3 @@
+INFO 2017-12-29 11:29:56,086 views 用户[yangyin]登录成功!
+INFO 2017-12-29 11:32:13,718 views 孙彦阁正在申请使用设备，设备类型：手机，设备型号：LG，设备颜色：黑，设备SN码：IMEI355136051695081，申请时间：2017-12-29 11:32:13，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI355136051695081&curent_username=孙彦阁&mobile_current_user=杨银">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI355136051695081&curent_username=孙彦阁&mobile_current_user=杨银">不同意</a>
+INFO 2017-12-29 11:32:49,989 views 申请[ 设备类型：手机，设备型号：LG，设备颜色：黑，设备SN码：IMEI355136051695081 ]通过

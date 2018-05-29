@@ -1,0 +1,140 @@
+INFO 2017-11-30 10:03:33,859 views 用户[wenshaokun]登录成功!
+INFO 2017-11-30 10:04:01,435 views 温绍琨正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：白，设备SN码：IMEI/MEID013471003168703，申请时间：2017-11-30 10:04:01，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID013471003168703&curent_username=温绍琨&mobile_current_user=孙彦阁">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID013471003168703&curent_username=温绍琨&mobile_current_user=孙彦阁">不同意</a>
+INFO 2017-11-30 10:04:08,845 views 温绍琨正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：白，设备SN码：IMEI/MEID013471003168703，申请时间：2017-11-30 10:04:08，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID013471003168703&curent_username=温绍琨&mobile_current_user=孙彦阁">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID013471003168703&curent_username=温绍琨&mobile_current_user=孙彦阁">不同意</a>
+INFO 2017-11-30 10:05:30,260 views 申请[ 设备类型：手机，设备型号：苹果/apple，设备颜色：白，设备SN码：IMEI/MEID013471003168703 ]通过
+INFO 2017-11-30 10:09:06,227 views 孙彦阁正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI/MEID 012966000081545，申请时间：2017-11-30 10:09:06，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID 012966000081545&curent_username=孙彦阁&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID 012966000081545&curent_username=孙彦阁&mobile_current_user=温绍琨">不同意</a>
+INFO 2017-11-30 10:10:45,795 views 孙彦阁正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：白，设备SN码：IMEI:013137008029030，申请时间：2017-11-30 10:10:45，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:013137008029030&curent_username=孙彦阁&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:013137008029030&curent_username=孙彦阁&mobile_current_user=温绍琨">不同意</a>
+WARNING 2017-11-30 10:11:43,082 base Not Found: /favicon.ico
+ERROR 2017-11-30 10:11:50,323 base Internal Server Error: /queren/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/weixinweb/apps/mobile/views.py", line 231, in get
+    mobileinfo = MobileInfo.objects.get(sn=sn)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: MobileInfo matching query does not exist.
+ERROR 2017-11-30 10:11:59,683 base Internal Server Error: /queren/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/weixinweb/apps/mobile/views.py", line 231, in get
+    mobileinfo = MobileInfo.objects.get(sn=sn)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: MobileInfo matching query does not exist.
+ERROR 2017-11-30 10:12:09,786 base Internal Server Error: /queren/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/weixinweb/apps/mobile/views.py", line 231, in get
+    mobileinfo = MobileInfo.objects.get(sn=sn)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: MobileInfo matching query does not exist.
+ERROR 2017-11-30 10:12:20,411 base Internal Server Error: /queren/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/weixinweb/apps/mobile/views.py", line 231, in get
+    mobileinfo = MobileInfo.objects.get(sn=sn)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: MobileInfo matching query does not exist.
+INFO 2017-11-30 10:13:23,179 views 孙彦阁正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI/MEID 012966000081545，申请时间：2017-11-30 10:13:23，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID 012966000081545&curent_username=孙彦阁&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID 012966000081545&curent_username=孙彦阁&mobile_current_user=温绍琨">不同意</a>
+INFO 2017-11-30 10:16:16,500 views 用户[wenshaokun]登录成功!
+WARNING 2017-11-30 10:16:17,329 base Not Found: /favicon.ico
+INFO 2017-11-30 10:16:23,512 views 温绍琨正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI/MEID 012966000081545，申请时间：2017-11-30 10:16:23，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID 012966000081545&curent_username=温绍琨&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID 012966000081545&curent_username=温绍琨&mobile_current_user=温绍琨">不同意</a>
+INFO 2017-11-30 10:16:27,723 views 温绍琨正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI/MEID 012966000081545，申请时间：2017-11-30 10:16:27，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID 012966000081545&curent_username=温绍琨&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID 012966000081545&curent_username=温绍琨&mobile_current_user=温绍琨">不同意</a>
+INFO 2017-11-30 10:16:33,605 views 温绍琨正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI/MEID 012966000081545，申请时间：2017-11-30 10:16:33，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID 012966000081545&curent_username=温绍琨&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID 012966000081545&curent_username=温绍琨&mobile_current_user=温绍琨">不同意</a>
+INFO 2017-11-30 10:18:06,947 views 孙彦阁正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI/MEID 012966000081545，申请时间：2017-11-30 10:18:06，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID 012966000081545&curent_username=孙彦阁&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID 012966000081545&curent_username=孙彦阁&mobile_current_user=温绍琨">不同意</a>
+ERROR 2017-11-30 10:18:09,861 base Internal Server Error: /queren/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/weixinweb/apps/mobile/views.py", line 231, in get
+    mobileinfo = MobileInfo.objects.get(sn=sn)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: MobileInfo matching query does not exist.
+ERROR 2017-11-30 10:18:14,816 base Internal Server Error: /queren/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/weixinweb/apps/mobile/views.py", line 231, in get
+    mobileinfo = MobileInfo.objects.get(sn=sn)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: MobileInfo matching query does not exist.
+ERROR 2017-11-30 10:18:24,475 base Internal Server Error: /queren/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/weixinweb/apps/mobile/views.py", line 231, in get
+    mobileinfo = MobileInfo.objects.get(sn=sn)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: MobileInfo matching query does not exist.
+INFO 2017-11-30 10:21:12,446 views 孙彦阁正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI/MEID012966000081545，申请时间：2017-11-30 10:21:12，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI/MEID012966000081545&curent_username=孙彦阁&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI/MEID012966000081545&curent_username=孙彦阁&mobile_current_user=温绍琨">不同意</a>
+INFO 2017-11-30 10:21:21,951 views 申请[ 设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI/MEID012966000081545 ]通过
+INFO 2017-11-30 10:22:43,539 views 孙彦阁正在申请使用设备，设备类型：苹果数据线，设备型号：苹果数据线，设备颜色：一根，设备SN码：05，申请时间：2017-11-30 10:22:43，<a href="http://phone.uqee.com/queren/?state=yes&sn=05&curent_username=孙彦阁&mobile_current_user=温绍琨">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=05&curent_username=孙彦阁&mobile_current_user=温绍琨">不同意</a>
+INFO 2017-11-30 10:22:48,797 views 申请[ 设备类型：苹果数据线，设备型号：苹果数据线，设备颜色：一根，设备SN码：05 ]通过
+WARNING 2017-11-30 10:23:36,238 base Not Found: /favicon.ico
+INFO 2017-11-30 10:37:45,651 views 温绍琨正在申请使用设备，设备类型：苹果数据线，设备型号：苹果数据线，设备颜色：一根，设备SN码：01，申请时间：2017-11-30 10:37:45，<a href="http://phone.uqee.com/queren/?state=yes&sn=01&curent_username=温绍琨&mobile_current_user=孙彦阁">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=01&curent_username=温绍琨&mobile_current_user=孙彦阁">不同意</a>
+INFO 2017-11-30 10:39:09,212 views 申请[ 设备类型：苹果数据线，设备型号：苹果数据线，设备颜色：一根，设备SN码：01 ]通过

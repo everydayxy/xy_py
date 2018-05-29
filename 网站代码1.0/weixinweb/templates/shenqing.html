@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="zh-cmn"><head><meta charset="UTF-8"><meta name="viewport" content="width=1120px,user-scalable=yes"><meta name="renderer" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta content="no-siteapp" http-equiv="Cache-Control"><script>var __START_DATE = +new Date;</script>  <title>企业微信登录</title> <link rel="icon" type="image/png" sizes="16x16" href="//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/favicon/favicon_16h$e1750fed.png"> <link rel="icon" type="image/png" sizes="32x32" href="//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/favicon/favicon_32h$a41a4426.png"> <link rel="icon" type="image/png" sizes="48x48" href="//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/favicon/favicon_48h$c976bd14.png">  <script>var RES_CDN='//rescdn.qqmail.com';</script><script src="//js.aq.qq.com/js/aq_common.js"></script><!--[if lte IE 8]> <script type="text/javascript" src="//rescdn.qqmail.com/node/ww/wwopenmng/js/supportHtml5.js"></script> <![endif]--><script>var __HEAD_END_DATE = +new Date;</script></head><body class=" "><script>var isWin = (function()
+{
+  var ua = navigator.userAgent.toLowerCase();
+  var isWin = (ua.indexOf('windows') != -1 || ua.indexOf('win32') != -1) && true;
+  if (isWin) document.body.className += ' isWin';
+  return isWin;
+})();</script><div id="wwopen.normal_layout_$" rendered="true"><div id="wwopen.normal_layout$layout$"><div id="wwopen.ssoPage_$" rendered="true"><style>html,body {
+        margin: 0;
+    }
+    .impowerBox, .impowerBox .status_icon, .impowerBox .status_txt {
+        display: inline-block;
+        vertical-align: middle
+    }
+
+    a {
+        outline: 0
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+        font-weight: 400
+    }
+
+    a img, fieldset {
+        border: 0
+    }
+
+    body {
+        font-family: "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", sans-serif;
+        color: #fff;
+        background: 0 0;
+    }
+
+    .impowerBox {
+        line-height: 1.6;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .impowerBox .title {
+        width: 160px;
+        height: 24px;
+        line-height: 24px;
+        /*background: url("//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/logo/WeworkLogoBule$773753a2.png") no-repeat left top;*/
+        margin: 0 auto;
+        color: #0082EF;
+        font-size: 20px;
+        text-align: left;
+    }
+    .logo {
+        width: 29px;
+        height: 24px;
+        vertical-align: top;
+        margin-right: 8px;
+    }
+
+    .impowerBox .qrcode {
+        width: 280px;
+        margin-top: 6px;
+        vertical-align:top;
+    }
+
+    .impowerBox .info {
+        width: 280px;
+        margin: 0 auto
+    }
+
+    .impowerBox .status {
+        text-align: left;
+        color: #737C84;
+        font-size: 0;
+        margin-top: 10px;
+    }
+
+    .impowerBox .status.status_browser {
+        text-align: center;
+        padding: 2px 0;
+    }
+
+    .impowerBox .status p {
+        font-size: 13px
+    }
+
+    .impowerBox .status_txt p {
+        top: -2px;
+        position: relative;
+        margin: 0
+    }
+    .impowerBox .icon38_msg {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        background-size: 38px 38px;
+        background-position: left top;
+        background-repeat: no-repeat;
+        margin-right: 12px;
+    }
+    .impowerBox .icon38_msg.succ {
+        -webkit-animation: scaleBig 0.2s ease-out 0s;
+        -moz-animation: scaleBig 0.2s ease-out 0s;
+        -ms-animation: scaleBig 0.2s ease-out 0s;
+        -o-animation: scaleBig 0.2s ease-out 0s;
+        animation: scaleBig 0.2s ease-out 0s;
+    }
+    .status.status_succ .status_txt {
+        -webkit-animation: transformRight 0.2s ease-out 0s;
+        -moz-animation: transformRight 0.2s ease-out 0s;
+        -ms-animation: transformRight 0.2s ease-out 0s;
+        -o-animation: transformRight 0.2s ease-out 0s;
+        animation: transformRight 0.2s ease-out 0s;
+    }
+    .status.status_fail {
+        -webkit-animation: transformLeft 0.2s ease-out 0s;
+        -moz-animation: transformLeft 0.2s ease-out 0s;
+        -ms-animation: transformLeft 0.2s ease-out 0s;
+        -o-animation: transformLeft 0.2s ease-out 0s;
+        animation: transformLeft 0.2s ease-out 0s;
+    }
+    .impowerBox .status_succ,.impowerBox .status_fail {
+        margin-left: 26px;
+    }
+    .impowerBox .status_succ .status_txt h4,.impowerBox .status_fail .status_txt h4{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 2px;
+    }
+    .impowerBox .status_succ .status_txt p,.impowerBox .status_fail .status_txt p{
+        font-size: 12px;
+        line-height: 17px;
+        color: #A1A7AC;
+    }
+    .impowerBox .icon38_msg.succ {
+        background-image: url("//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/icons/Succ_2x$38dc7620.png");
+    }
+
+    .impowerBox .icon38_msg.warn {
+        background-image: url("//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/icons/Fail_2x$f2bea9cb.png");
+        border-radius: 50%;
+        background-color: #ffffff;
+    }
+
+    .result {
+        position: absolute;
+        top: 33%;
+        left: 26px;
+        right: 26px;
+        bottom: 20%;
+    }
+    .result_iconWrap {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .result_icon {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: url("//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/icons/InfoBig_2x$4b9e452f.png") no-repeat left top;
+        background-size: cover;
+    }
+    .result_text {
+        color: #333333;
+        font-size: 14px;
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+        .logo {
+            content: url("//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/logo/WeworkLogoBule_2x$b12bb1b6.png");
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 3) {
+        .impowerBox .icon38_msg.succ {
+            background-image: url("//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/icons/Succ_3x$8c66500f.png");
+        }
+        .impowerBox .icon38_msg.warn{
+            background-image: url("//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/icons/Fail_3x$89d16f97.png");
+        }
+        .result_icon {
+            background-image: url("//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/icons/InfoBig_3x$0d2189f1.png");
+        }
+    }
+    .loginPanel {
+        width: 378px;
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 36px 0 38px;
+        border-radius: 4px;
+        border: 1px solid #E7E9EB;
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.03);
+    }
+    @-webkit-keyframes  scaleBig {
+        0% {
+            opacity: 0;
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    @keyframes scaleBig {
+        0% {
+            opacity: 0;
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes  transformRight {
+        0% {
+            opacity: 0;
+            transform: translateX(-15px);
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    @keyframes transformRight {
+        0% {
+            opacity: 0;
+            transform: translateX(-15px);
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes  transformLeft {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes transformLeft {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }</style>  <div class="main impowerBox"><div class="loginPanel normalPanel card"><div class="title"><img src="//rescdn.qqmail.com/node/ww/wwopenmng/style/images/independent/logo/WeworkLogoBule$773753a2.png" alt="logo" class="logo">企业微信登录</div><div class="waiting panelContent"><div class="wrp_code"><img class="qrcode lightBorder" src="//open.work.weixin.qq.com/wwopen/sso/qrImg?key=f6886de12229cbbd"></div><div class="info"><div class="status status_browser js_status" id="wx_default_tip"><p>请使用企业微信扫描二维码登录</p><p>“设备管理”</p></div><div class="status status_succ js_status" style="display:none" id="wx_after_scan"><i class="status_icon icon38_msg succ"></i><div class="status_txt"><h4>扫描成功</h4><p>请在企业微信中点击确认即可登录</p></div></div><div class="status status_fail js_status" style="display:none" id="wx_after_cancel"><i class="status_icon icon38_msg warn"></i><div class="status_txt"><h4>您已取消此次登录</h4><p>您可再次扫描登录，或关闭窗口</p></div></div></div></div></div></div><script>window.settings = {
+        appid : "ww867aa77107c43f7b",
+        key : "f6886de12229cbbd",
+        style : "",
+        redirect_uri : "http://phone.uqee.com",
+        state : "",
+        href : "",
+        code_type : "",
+    }</script> <script type="text/javascript" src="//rescdn.qqmail.com/node/ww/wwopenmng/js/modules/jquery/jquery/1.11.3/jquery.min$4aab53e1.js"></script> <script type="text/javascript" src="//rescdn.qqmail.com/node/ww/wwopenmng/js/sso/longpoll$2d5a20ab.js"></script> </div></div></div></body></html>

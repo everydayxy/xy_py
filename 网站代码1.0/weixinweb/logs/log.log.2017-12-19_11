@@ -1,0 +1,4 @@
+INFO 2017-12-19 11:18:19,295 views 用户[yangyin]登录成功!
+INFO 2017-12-19 11:18:25,522 views 杨银正在申请使用设备，设备类型：手机，设备型号：三星/samsung，设备颜色：白，设备SN码：IMEI:359596063602258，申请时间：2017-12-19 11:18:25，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:359596063602258&curent_username=杨银&mobile_current_user=陈婷">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:359596063602258&curent_username=杨银&mobile_current_user=陈婷">不同意</a>
+INFO 2017-12-19 11:18:33,383 views 申请[ 设备类型：手机，设备型号：三星/samsung，设备颜色：白，设备SN码：IMEI:359596063602258 ]通过
+INFO 2017-12-19 11:18:51,220 views 用户[yangyin]登录成功!

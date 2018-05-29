@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设备借用记录</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+        th,td
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center">设备借用记录</h2>
+    <div>
+        <table class="table table-bordered table-responsive ">
+            <thead>
+                <tr>
+                  <th width="50px;">编号</th>
+                  <th width="100px;" >
+                      <div class="dropdown">
+                            <a id="dLabel" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                设备类型
+                            <span class="caret"></span>
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="dLabel">
+                              <li><a href="?type=">全部</a></li>
+                              {% for type in all_types %}
+                              <li><a href="?type={{ type.type }}">{{ type.type }}</a></li>
+                              {% endfor %}
+                          </ul>
+                      </div>
+                  </th>
+                  <th width="80px;">设备颜色</th>
+                  <th width="120px;">
+                        <div class="dropdown">
+                            <a id="dLabel" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                设备型号
+                            <span class="caret"></span>
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="dLabel">
+                              <li><a href="?mobile_type=">全部</a></li>
+                              {% for mobile_type in all_mobile_type %}
+                              <li><a href="?mobile_type={{ mobile_type.mobile_type }}">{{ mobile_type.mobile_type }}</a></li>
+                              {% endfor %}
+                          </ul>
+                        </div>
+                  </th>
+                  <th width="220px;">设备编码</th>
+                  <th width="200px;">设备SN编码</th>
+                  <th width="120px;">借用人</th>
+                  <th width="120px;">上一次借用人</th>
+                  <th width="180px;">借用开始时间</th>
+                  <th width="100px;">
+                      <div class="dropdown">
+                                <a id="dLabel" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    使用状态
+                                <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                  <li><a href="?state=">全部</a></li>
+                                  <li><a href="?state=use">使用</a></li>
+                                  <li><a href="?state=free">空闲</a></li>
+                              </ul>
+                       </div>
+                  </th>
+                  <th width="50">操作</th>
+                  <th width="auto">备注</th>
+                </tr>
+          </thead>
+            {% for  mobile in all_mobile %}
+                  <tbody>
+                        <tr class="success">
+                          <th scope="row">{{ forloop.counter }}</th>
+                          <td >{{ mobile.type }}</td>
+                          <td>{{ mobile.color }}</td>
+                          <td>{{ mobile.mobile_type }}</td>
+                          <td>{{ mobile.number }}</td>
+                          <td>{{ mobile.sn}}</td>
+                          <td>{{ mobile.current_user }}</td>
+                          <td>{{ mobile.last_user }}</td>
+                          <td>{{ mobile.update_time }}</td>
+                          <td>{% if mobile.mobile_state == 'free' %} 空闲{% elif mobile.mobile_state == 'use' %} 使用 {% endif %}</td>
+                          <td><a href="{% url 'shenqing' %}?type={{ mobile.type }}&number={{ mobile.number }}&mobile_type={{ mobile.mobile_type }}&color={{ mobile.color }}&current_user={{ mobile.current_user }}&last_user={{ mobile.last_user  }}&sn={{ mobile.sn }}">申请</a></td>
+                          <td>{% if mobile.remark %}{{ mobile.remark }}{% endif %}</td>
+                        </tr>
+                  </tbody>
+            {% endfor %}
+        </table>
+    </div>
+    <div id="wx_reg">
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $('.dropdown-toggle').dropdown()
+</script>
+</body>
+
+</html>

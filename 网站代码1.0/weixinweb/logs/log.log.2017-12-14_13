@@ -1,0 +1,7 @@
+INFO 2017-12-20 16:50:49,224 views 用户[tangjun]登录成功!
+INFO 2017-12-20 17:03:10,594 views 用户[tangjun]登录成功!
+INFO 2017-12-20 17:03:29,791 views 唐俊正在申请使用设备，设备类型：平板，设备型号：华为/huawei，设备颜色：白，设备SN码：2153017188LM71003213，申请时间：2017-12-20 17:03:29
+INFO 2017-12-20 17:05:22,761 views 用户[sunyange]登录成功!
+WARNING 2017-12-20 17:05:23,446 base Not Found: /favicon.ico
+INFO 2017-12-20 17:06:39,200 views 孙彦阁正在申请使用设备，设备类型：平板，设备型号：华为/huawei，设备颜色：白，设备SN码：2153017188LM71003213，申请时间：2017-12-20 17:06:39，<a href="http://phone.uqee.com/queren/?state=yes&sn=2153017188LM71003213&curent_username=孙彦阁&mobile_current_user=唐俊">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=2153017188LM71003213&curent_username=孙彦阁&mobile_current_user=唐俊">不同意</a>
+INFO 2017-12-20 17:07:39,687 views 申请[ 设备类型：平板，设备型号：华为/huawei，设备颜色：白，设备SN码：2153017188LM71003213 ]通过

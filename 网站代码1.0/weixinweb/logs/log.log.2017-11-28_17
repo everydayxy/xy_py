@@ -1,0 +1,6 @@
+INFO 2017-11-28 17:23:04,263 views 用户[liuyanjun]登录成功!
+INFO 2017-11-28 17:27:11,960 views 刘燕军正在申请使用设备，设备类型：手机，设备型号：努比亚/nuoio，设备颜色：黑，设备SN码：IMEI:863396022220766，申请时间：2017-11-28 17:27:11
+INFO 2017-11-28 18:08:03,904 views 用户[gupengyuan]登录成功!
+INFO 2017-11-28 18:08:10,560 views 辜鹏远正在申请使用设备，设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI:861735030041619，申请时间：2017-11-28 18:08:10，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:861735030041619&curent_username=辜鹏远&mobile_current_user=刘燕军">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:861735030041619&curent_username=辜鹏远&mobile_current_user=刘燕军">不同意</a>
+INFO 2017-11-28 18:08:15,435 views 辜鹏远正在申请使用设备，设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI:861735030041619，申请时间：2017-11-28 18:08:15，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:861735030041619&curent_username=辜鹏远&mobile_current_user=刘燕军">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:861735030041619&curent_username=辜鹏远&mobile_current_user=刘燕军">不同意</a>
+INFO 2017-11-28 18:08:28,515 views 申请[ 设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI:861735030041619 ]通过

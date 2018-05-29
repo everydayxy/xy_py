@@ -1,0 +1,4 @@
+INFO 2018-02-27 11:22:31,248 views 孙彦阁正在申请使用设备，设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI:，申请时间：2018-02-27 11:22:31，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:&curent_username=孙彦阁&mobile_current_user=朱黑白">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:&curent_username=孙彦阁&mobile_current_user=朱黑白">不同意</a>
+INFO 2018-02-27 11:22:42,473 views 孙彦阁正在申请使用设备，设备类型：手机，设备型号：中兴/zte，设备颜色：黑，设备SN码：864965021987051，申请时间：2018-02-27 11:22:42，<a href="http://phone.uqee.com/queren/?state=yes&sn=864965021987051&curent_username=孙彦阁&mobile_current_user=王彦">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=864965021987051&curent_username=孙彦阁&mobile_current_user=王彦">不同意</a>
+INFO 2018-02-27 11:23:20,019 views 申请[ 设备类型：手机，设备型号：小米/xiaomi，设备颜色：白，设备SN码：IMEI: ]通过
+INFO 2018-02-27 11:34:30,421 views 申请[ 设备类型：手机，设备型号：中兴/zte，设备颜色：黑，设备SN码：864965021987051 ]通过

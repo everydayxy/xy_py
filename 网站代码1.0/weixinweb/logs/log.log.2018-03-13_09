@@ -1,0 +1,7 @@
+INFO 2018-03-13 09:38:06,436 views 用户[angyasong]登录成功!
+WARNING 2018-03-13 09:38:06,897 base Not Found: /favicon.ico
+INFO 2018-03-13 10:03:21,856 views 昂亚松正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI:012963009071239，申请时间：2018-03-13 10:03:21，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:012963009071239&curent_username=昂亚松&mobile_current_user=孙彦阁">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:012963009071239&curent_username=昂亚松&mobile_current_user=孙彦阁">不同意</a>
+INFO 2018-03-13 10:03:45,594 views 昂亚松正在申请使用设备，设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI:012963009071239，申请时间：2018-03-13 10:03:45，<a href="http://phone.uqee.com/queren/?state=yes&sn=IMEI:012963009071239&curent_username=昂亚松&mobile_current_user=孙彦阁">同意</a>，或者是<a href="http://phone.uqee.com/queren/?state=no&sn=IMEI:012963009071239&curent_username=昂亚松&mobile_current_user=孙彦阁">不同意</a>
+INFO 2018-03-13 10:04:51,332 views 用户[sunyange]登录成功!
+WARNING 2018-03-13 10:04:51,938 base Not Found: /favicon.ico
+INFO 2018-03-13 10:05:24,834 views 申请[ 设备类型：手机，设备型号：苹果/apple，设备颜色：黑，设备SN码：IMEI:012963009071239 ]通过
