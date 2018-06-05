@@ -25,8 +25,8 @@ def getgrains():
 def change_conf():
     gamename,ip,sid = getgrains()
     copyfile('/etc/conf/uqee/{}/server/config.json'.format(gamename),'/etc/conf/uqee/{}/server/config.json.bak'.format(gamename))
-    # configfile = '/etc/conf/uqee/{}/server/config.json'.format(gamename)
-    configfile = '/etc/conf/uqee/{}/server/config.json.bak'.format(gamename)
+    configfile = '/etc/conf/uqee/{}/server/config.json'.format(gamename)
+    #configfile = '/etc/conf/uqee/{}/server/config.json.bak'.format(gamename)
     with open(configfile, 'r') as f:
         data = json.loads(f.read())
     if gamename == 'lyingdragon':
@@ -49,7 +49,7 @@ def change_conf():
             data["server"]['id'] = newid
     elif gamename == 'dreamback':
         copyfile('/home/soidc/khbd_web/config/Server.xml','/home/soidc/khbd_web/config/Server.xml.bak')
-        xmlfile = '/home/soidc/khbd_web/config/Server.xml.bak'
+        xmlfile = '/home/soidc/khbd_web/config/Server.xml'
         oldservername=data['server']['name'].split('-')
         newservername ='{}-{}区'.format(oldservername[0],sid)
         olddomain = data['server']['host'].split('.')
@@ -69,7 +69,7 @@ def change_conf():
         try:
 	    data['peer']['local']['address'] = '{}:1268'.format(ip)
 	except Exception ,e:
-	    print('error' ,e,'happrned')
+	    print('error' ,e,'happened')
     elif gamename == 'legendary' or gamename == 'naruto':
         olddomain = data['server']['report']['address'].split('.')
         platform=olddomain[2]
@@ -92,6 +92,10 @@ def change_conf():
                 data['server']["peer"]["name"] = '乐趣{}'.format(newname)
                 open_date = raw_input("Please input the game open date:")
                 data['server']["open"]["date"] = open_date
+        elif platform == '2686':
+            data['server']['name'] = '2686-{}区'.format(sid.lstrip('0'))
+            data['server']["peer"]["name"] = '{}区'.format(sid.lstrip('0'))
+            data['server']["showname"] = '<2686>h{}'.format(sid.lstrip('0'))
     elif gamename == 'lyingdragon':
         data['admin']['auth']['ip'] = newipauth
         data['cluster']['id'] = newid
@@ -105,6 +109,9 @@ def change_conf():
         elif oldid.split('-')[-2] == '1k2k':
             data['server']['name'] = '1k2k-{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.1k2k.com'.format(sid.lstrip('0'))
+        elif oldid.split('-')[-2] == '2686':
+            data['server']['name'] = '2686-{}区'.format(sid.lstrip('0'))
+            data['server']['report']['address'] = 's{}.wly.2686.com'.format(sid.lstrip('0'))
         elif oldid.split('-')[-2] == '5qwan':
             data['server']['name'] = '5qwan-{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.5qwan.com'.format(sid.lstrip('0'))
