@@ -96,6 +96,9 @@ def change_conf():
             data['server']['name'] = '2686-{}区'.format(sid.lstrip('0'))
             data['server']["peer"]["name"] = '{}区'.format(sid.lstrip('0'))
             data['server']["showname"] = '<2686>h{}'.format(sid.lstrip('0'))
+        elif platform == '1k2k' and gamename == 'naruto':
+            data['server']['name'] = '1k2k-{}区'.format(sid.lstrip('0'))
+            data['server']["peer"]["name"] = '1k2k-{}区'.format(sid.lstrip('0'))
     elif gamename == 'lyingdragon':
         data['admin']['auth']['ip'] = newipauth
         data['cluster']['id'] = newid
@@ -122,19 +125,19 @@ def change_conf():
             data['server']['name'] = '789hi-{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.789hi.com'.format(sid.lstrip('0'))
         elif oldid.split('-')[-2] == 'lehh':
-            data['peer']['center']['address'] = '{}:1268'.format(ip)
+#data['peer']['center']['address'] = '{}:1268'.format(ip)
             data['server']['name'] = '乐嗨嗨{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.lehaihai.uqeegame.com'.format(sid.lstrip('0'))
-            data['server']['copainee'] = {
-                "address": "{}:3559".format(ip),
-                "id": "{}".format(newid),
-                "reportaddress": "s{}.wly.lehaihai.uqeegame.com".format(sid.lstrip('0'))
-            }
-            data['server']['followee'] = {
-                "address": "{}:3559".format(ip),
-                "id": "{}".format(newid),
-                "reportaddress": "s{}.wly.lehaihai.uqeegame.com".format(sid.lstrip('0'))
-            }
+#            data['server']['copainee'] = {
+#              "address": "{}:3559".format(ip),
+#              "id": "{}".format(newid),
+#              "reportaddress": "s{}.wly.lehaihai.uqeegame.com".format(sid.lstrip('0'))
+#          }
+#           data['server']['followee'] = {
+#              "address": "{}:3559".format(ip),
+#              "id": "{}".format(newid),
+#              "reportaddress": "s{}.wly.lehaihai.uqeegame.com".format(sid.lstrip('0'))
+#          }
 
     with open(configfile, 'w') as f1:
         f1.write(json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False))
