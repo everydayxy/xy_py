@@ -84,14 +84,30 @@ def change_conf():
             data['server']['name'] = "爱玩-{}区".format(sid)
             data['server']["showname"] = 's{}'.format(sid.lstrip('0'))
             data['server']["peer"]["name"] = newname
+            data['server']['global'] = {
+            "address": "{}:9110".format(ip),
+            "admin": {
+                "address": "{}:9111".format(ip),
+                "eth": "eth1",
+                "port":9111
+            },
+            "eth": "eth1",
+            "port": "9110",
+            "tunnel": {
+                "address": "{}:9112".format(ip),
+                "eth": "eth1",
+                "port": 9112
+            }
+            }
         elif platform == 'lequ':
             data['server']['name'] = "乐趣-{}区".format(sid)
             if gamename == 'legendary':
                 data['server']["peer"]["name"] = newname
+                data['server']["showname"] = '<乐趣>s{}'.format(sid.lstrip('0'))
             elif gamename == 'naruto':
                 data['server']["peer"]["name"] = '乐趣{}'.format(newname)
-                open_date = raw_input("Please input the game open date:")
-                data['server']["open"]["date"] = open_date
+#                open_date = raw_input("Please input the game open date:")
+#                data['server']["open"]["date"] = open_date
         elif platform == '2686':
             data['server']['name'] = '2686-{}区'.format(sid.lstrip('0'))
             data['server']["peer"]["name"] = '{}区'.format(sid.lstrip('0'))
@@ -138,6 +154,20 @@ def change_conf():
 #              "id": "{}".format(newid),
 #              "reportaddress": "s{}.wly.lehaihai.uqeegame.com".format(sid.lstrip('0'))
 #          }
+        elif oldid.split('-')[-2] == 'xiongmw':
+            data['peer']['center']['address'] = '{}:1268'.format(ip)
+            data['server']['name'] = '熊猫玩{}区'.format(sid.lstrip('0'))
+            data['server']['report']['address'] = 's{}.wly.xiongmaowan.uqeegame.com'.format(sid.lstrip('0'))
+            data['server']['copainee'] = {
+              "address": "{}:3559".format(ip),
+              "id": "{}".format(newid),
+              "reportaddress": "s{}.wly.xiongmaowan.uqeegame.com".format(sid.lstrip('0'))
+             }
+            data['server']['followee'] = {
+              "address": "{}:3559".format(ip),
+              "id": "{}".format(newid),
+              "reportaddress": "s{}.wly.xiongmaowan.uqeegame.com".format(sid.lstrip('0'))
+            }
 
     with open(configfile, 'w') as f1:
         f1.write(json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False))
@@ -168,7 +198,7 @@ def khbd_xml(xmlfile,sid,newdomain,platform):
             i.attrib['title'] = '乐趣网《葵花宝典》双线{}区'.format(sid)
             i.attrib['welcome'] = '乐趣网《葵花宝典》双线{}区欢迎您：给您不一样的武侠体验！'.format(sid)
             for i in tree.iterfind("Server/rechargePage"):
-                i.text = 'http://www.lequ.com/pay/index1.html/game/17/s/{}/loginuid/'.format(sid)
+                i.text = 'http://www.lequ.com/pay/index/game/17/s/{}/loginuid/'.format(sid)
         if platform == "311wan":
             i.attrib['title'] = '《葵花宝典》双线{}服'.format(sid)
         if platform == "qq990":
