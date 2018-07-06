@@ -168,7 +168,7 @@ def khbd_xml(xmlfile,sid,newdomain,platform):
             i.attrib['title'] = '乐趣网《葵花宝典》双线{}区'.format(sid)
             i.attrib['welcome'] = '乐趣网《葵花宝典》双线{}区欢迎您：给您不一样的武侠体验！'.format(sid)
             for i in tree.iterfind("Server/rechargePage"):
-                i.text = 'http://www.lequ.com/pay/index/game/17/s/{}/loginuid/'.format(sid)
+                i.text = 'http://www.lequ.com/pay/index1.html/game/17/s/{}/loginuid/'.format(sid)
         if platform == "311wan":
             i.attrib['title'] = '《葵花宝典》双线{}服'.format(sid)
         if platform == "qq990":
