@@ -1,25 +1,24 @@
-import multiprocessing
-import time
 import threading
 
-def thread_run():
-    print(threading.get_ident())
+local = threading.local()
+class Student():
+    def __init__(self, name, age, score):
+        self.name = name
+        self.age = age
+        self.score = score
 
-def run(name):
-    time.sleep(2)
-    print(name)
-    t = threading.Thread(target=thread_run,)
-    t.start()
+def getInfo():
+    stu = local.student
+    print('this is %s, %d, %d in %s' %(stu.name, stu.age, stu.score, threading.current_thread().name))
 
-def main():
-    obj= []
-    for i in range(10):
-        p = multiprocessing.Process(target=run,args=('bob {}'.format(i),))
-        obj.append(p)
-    for i in obj:
-        i.start()
-    for i in obj:
-        i.join()
+def setInfo(name, age, score):
+    local.student = Student(name, age, score)
+    getInfo()
 
-if __name__ == '__main__':
-    main()
+t1 = threading.Thread(target=setInfo, args=('Alice', 25, 88), name='Thread_1')
+t2 = threading.Thread(target=setInfo, args=('Bob', 27, 90), name='Thread_2')
+t1.start()
+t2.start()
+t1.join()
+t2.join()
+print('print complete...')

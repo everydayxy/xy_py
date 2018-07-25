@@ -4,7 +4,6 @@ import threading
 import time
 import paramiko
 import argparse
-import argparse
 import sys
 
 reload(sys)
@@ -64,6 +63,14 @@ class run(object):
         obj = []
         self.update_hosts = self.get_exists_host()
         #        print(update_hosts,cmd,method)
+	r = raw_input('本次需要更新以下服务器{},数量{}，确认按1：'.format(self.host_lists,len(self.update_hosts)))
+	try:
+	    if len(r) ==  1 and r.isdigit() and int(r) == 1:
+                pass
+	    else:
+	        return False
+        except:
+	    return False
         for ip in self.update_hosts:
             t = threading.Thread(target=method, args=(ip, cmd))
             obj.append(t)

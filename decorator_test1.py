@@ -25,8 +25,8 @@ def auth(auth_type):
 
 @auth(auth_type='ldap')
 def index():
-    print('welcome to index page')
-    return 'from index'
+    print('welcome to index1.html page')
+    return 'from index1.html'
 @auth(auth_type='local')
 def bbs():
     print('welcome to bbs page')
