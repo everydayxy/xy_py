@@ -37,11 +37,12 @@ class run(object):
         file_lists = self.get_hosts()
         with open('/etc/hosts', 'rt') as f:
             for line in f.readlines():
-                if line and '#' not in line and len(line.split()) == 2:
+                if line and  len(line.split()) >= 2:
                     hosts_lists.append(line.split()[1])
         for x in file_lists:
-            if x in hosts_lists:
-                list1.append(x)
+            if x not in hosts_lists:
+                continue
+	    list1.append(x)
 
         return list1
 
@@ -62,14 +63,16 @@ class run(object):
     def main(self, cmd, method, thread_num=1):
         obj = []
         self.update_hosts = self.get_exists_host()
-        #        print(update_hosts,cmd,method)
-	r = raw_input('本次需要更新以下服务器{},数量{}，确认按1：'.format(self.host_lists,len(self.update_hosts)))
+#        for i in self.update_hosts:
+#           print(i)
 	try:
+	    r = raw_input('本次需要更新以下服务器：{},服务器数量：{}，服务器更新命令：{}，确认按1：'.format(self.host_lists,len(self.update_hosts),cmd))
 	    if len(r) ==  1 and r.isdigit() and int(r) == 1:
                 pass
 	    else:
 	        return False
         except:
+            print
 	    return False
         for ip in self.update_hosts:
             t = threading.Thread(target=method, args=(ip, cmd))
