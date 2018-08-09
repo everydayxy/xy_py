@@ -5,6 +5,9 @@ import paramiko
 import sys
 import threading
 import os
+import subprocess
+import shlex
+
 
 #此脚本需要在同一目录下存放hefu_server_list.txt文件
 #hefu_server_list.txt存放需要合服的区服列表,合服所在的区服放在文件第一行
@@ -13,6 +16,8 @@ def get_text():
     with open('hefu_server_list.txt','r') as f:
         for i in f.readlines():
 	    new_list.append(i.strip('\n'))
+    while '' in new_list:
+        new_list.remove('')
     return new_list
 
 def remote_ssh(ip,cmd):
@@ -56,13 +61,20 @@ def main():
         return False
 
     remote_exec(remote_ssh,'sudo /mnt/db.bak/xl/end_game.py')
-    remote_exec(remote_ssh,'pg_dump -h db -U postgres lyingdragon2 -f ~/$(hostname).sql')
     remote_ssh(hefu_server_list[0],'pg_dump -h db -U postgres lyingdragon2 -sf ~/$(hostname).schema')
     remote_ssh(hefu_server_list[0],'sudo cp ~/$(hostname).schema /var/lib/postgresql/lyingdragon.schema')
     remote_ssh(hefu_server_list[0],'sudo cp /mnt/db.bak/xl/xiayang/wly_hefu_stage2.py ~/')
 
     for k,host in enumerate(hefu_server_list):
+        remote_ssh(host,'pg_dump -h db -U postgres lyingdragon2 -f ~/wly-{0}.sql'.format(host))
         if k != 0:
+#        status = exec_command('scp {0}:~/wly-{0}.sql ~/'.format(host))
+#           if status != 0:
+#               host_new = add_zero(host)
+#               print('scp {0}:~/wly-{1}.sql ~/'.format(host,host_new))
+#               print('scp ~/wly-{0}.sql {1}:~/'.format(host_new,hefu_server_list[0]))
+#               print('rm -f  ~/wly-{0}.sql'.format(host_new))
+#           else:
             os.system('scp {0}:~/wly-{0}.sql ~/'.format(host))
             os.system('scp ~/wly-{0}.sql {1}:~/'.format(host,hefu_server_list[0]))
             os.system('rm -f  ~/wly-{0}.sql'.format(host))
