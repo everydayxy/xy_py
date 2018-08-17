@@ -74,7 +74,7 @@ def change_conf():
         data['server']["web"]["admin"]["ip"] = ip
         try:
 	    data['peer']['local']['address'] = '{}:1268'.format(ip)
-	    except Exception ,e:
+        except Exception ,e:
 	    print('error' ,e,'happened')
     elif gamename == 'legendary' or gamename == 'naruto':
         olddomain = data['server']['report']['address'].split('.')
@@ -177,7 +177,7 @@ def change_conf():
             }
         oldconfigfile = '/etc/conf/uqee/lyingdragon/server/config.json.bak'
         with open(oldconfigfile) as f2:
-            data2 = json.load(f2.read())
+            data2 = json.loads(f2.read())
             oldsid = data2['server']['partner']['id']
         new_xmlfile = rename_xml(oldsid, sid )
         wly_xml(new_xmlfile,sid,platform)
