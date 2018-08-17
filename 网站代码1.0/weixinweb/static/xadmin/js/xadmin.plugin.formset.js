@@ -28,7 +28,7 @@
                 row.find('input,select,textarea,label,div,a').each(function() {
                     updateElementIndex($(this), options.prefix, i);
                 });
-                row.data('row-index', i);
+                row.data('row-index1.html', i);
             },
 
             insertDeleteLink = function(row) {
@@ -102,7 +102,7 @@
     $.fn.formset.styles = {
         'tab': {
             added: function(row, $$){
-                var new_tab = $('<li><a data-toggle="tab" href="#'+ row.attr('id') +'">#<span class="formset-num">'+ (row.data('row-index') + 1) +'</span></a></li>');
+                var new_tab = $('<li><a data-toggle="tab" href="#'+ row.attr('id') +'">#<span class="formset-num">'+ (row.data('row-index1.html') + 1) +'</span></a></li>');
                 $$.parent().find('.nav-tabs').append(new_tab);
                 new_tab.find('a').tab('show');
             },

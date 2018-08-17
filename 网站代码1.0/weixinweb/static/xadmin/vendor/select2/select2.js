@@ -30,7 +30,7 @@ the specific language governing permissions and limitations under the Apache Lic
 				while (
 					++i < l
 					&& (j.context = j[0] = this[i])
-					&& c.call(j[0], i, j) !== false //"this"=DOM, i=index, j=jQuery object
+					&& c.call(j[0], i, j) !== false //"this"=DOM, i=index1.html, j=jQuery object
 				);
 				return this;
 			}
@@ -1298,7 +1298,7 @@ the specific language governing permissions and limitations under the Apache Lic
             var results = this.results,
                 more = results.find("li.select2-more-results"),
                 below, // pixels the element is below the scroll fold, below==0 is when the element is starting to be visible
-                offset = -1, // index of first element without data
+                offset = -1, // index1.html of first element without data
                 page = this.resultsPage + 1,
                 self=this,
                 term=this.search.val(),

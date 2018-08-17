@@ -157,12 +157,12 @@ XRegExp = XRegExp || (function (undef) {
     }
 
 /*
- * Returns the last index at which a given value can be found in an array, or `-1` if it's not
+ * Returns the last index1.html at which a given value can be found in an array, or `-1` if it's not
  * present. The array is searched backwards.
  * @private
  * @param {Array} array Array to search.
  * @param {*} value Value to locate in the array.
- * @returns {Number} Last zero-based index at which the item is found, or -1.
+ * @returns {Number} Last zero-based index1.html at which the item is found, or -1.
  */
     function lastIndexOf(array, value) {
         var i = array.length;
@@ -482,7 +482,7 @@ XRegExp = XRegExp || (function (undef) {
  * @memberOf XRegExp
  * @param {String} str String to search.
  * @param {RegExp} regex Regex to search with.
- * @param {Number} [pos=0] Zero-based index at which to start the search.
+ * @param {Number} [pos=0] Zero-based index1.html at which to start the search.
  * @param {Boolean|String} [sticky=false] Whether the match must start at the specified position
  *   only. The string `'sticky'` is accepted as an alternative to `true`.
  * @returns {Array} Match array with named backreference properties, or null.
@@ -496,7 +496,7 @@ XRegExp = XRegExp || (function (undef) {
  * var pos = 2, result = [], match;
  * while (match = XRegExp.exec('<1><2><3><4>5<6>', /<(\d)>/, pos, 'sticky')) {
  *   result.push(match[1]);
- *   pos = match.index + match[0].length;
+ *   pos = match.index1.html + match[0].length;
  * }
  * // result -> ['2', '3', '4']
  */
@@ -521,7 +521,7 @@ XRegExp = XRegExp || (function (undef) {
  * @param {RegExp} regex Regex to search with.
  * @param {Function} callback Function to execute for each match. Invoked with four arguments:
  *   <li>The match array, with named backreference properties.
- *   <li>The zero-based match index.
+ *   <li>The zero-based match index1.html.
  *   <li>The string being traversed.
  *   <li>The regex object being used to traverse the string.
  * @param {*} [context] Object to use as `this` when executing `callback`.
@@ -693,7 +693,7 @@ XRegExp = XRegExp || (function (undef) {
  *     <li>The matched substring (corresponds to $& above). Named backreferences are accessible as
  *       properties of this first argument.
  *     <li>0..n arguments, one for each backreference (corresponding to $1, $2, etc. above).
- *     <li>The zero-based index of the match within the total search string.
+ *     <li>The zero-based index1.html of the match within the total search string.
  *     <li>The total string being searched.
  * @param {String} [scope='one'] Use 'one' to replace the first match only, or 'all'. If not
  *   explicitly specified and using a regex with flag `g`, `scope` is 'all'.
@@ -773,7 +773,7 @@ XRegExp = XRegExp || (function (undef) {
  * @memberOf XRegExp
  * @param {String} str String to search.
  * @param {RegExp} regex Regex to search with.
- * @param {Number} [pos=0] Zero-based index at which to start the search.
+ * @param {Number} [pos=0] Zero-based index1.html at which to start the search.
  * @param {Boolean|String} [sticky=false] Whether the match must start at the specified position
  *   only. The string `'sticky'` is accepted as an alternative to `true`.
  * @returns {Boolean} Whether the regex matched the provided value.
@@ -907,7 +907,7 @@ XRegExp = XRegExp || (function (undef) {
             // nonparticipating capturing groups
             if (!compliantExecNpcg && match.length > 1 && lastIndexOf(match, "") > -1) {
                 r2 = new RegExp(this.source, nativ.replace.call(getNativeFlags(this), "g", ""));
-                // Using `str.slice(match.index)` rather than `match[0]` in case lookahead allowed
+                // Using `str.slice(match.index1.html)` rather than `match[0]` in case lookahead allowed
                 // matching due to characters outside the match
                 nativ.replace.call(String(str).slice(match.index), r2, function () {
                     var i;

@@ -42,9 +42,9 @@
         // The filter for the selected gallery links (e.g. set to ":odd" to
         // filter out label and thumbnail linking twice to the same image):
         filter: '*',
-        // The index of the first gallery image to show:
+        // The index1.html of the first gallery image to show:
         index: 0,
-        // The href of the first gallery image to show (overrides index):
+        // The href of the first gallery image to show (overrides index1.html):
         href: null,
         // The range of images around the current one to preload:
         preloadRange: 2,

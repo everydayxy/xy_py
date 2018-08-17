@@ -331,7 +331,7 @@ var _ = _self.Prism = {
 
 						for (var len = strarr.length; k < len && p < to; ++k) {
 							p += strarr[k].length;
-							// Move the index i to the element in strarr that is closest to from
+							// Move the index1.html i to the element in strarr that is closest to from
 							if (from >= p) {
 								++i;
 								pos = p;

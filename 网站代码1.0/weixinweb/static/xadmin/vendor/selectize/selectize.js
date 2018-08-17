@@ -1278,7 +1278,7 @@
 				self.ignoreHover = false;
 			});
 	
-			// store original children and tab index so that they can be
+			// store original children and tab index1.html so that they can be
 			// restored when the destroy() method is called.
 			this.revertSettings = {
 				$children : $input.children().detach(),
@@ -2961,7 +2961,7 @@
 		},
 	
 		/**
-		 * Moves the caret to the specified index.
+		 * Moves the caret to the specified index1.html.
 		 *
 		 * @param {int} i
 		 */

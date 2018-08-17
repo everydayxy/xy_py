@@ -145,7 +145,7 @@ class ThreadPool:
         '''当queue满了，也就是容量达到了前面设定的q_size,它将一直阻塞，直到有空余位置，或是timeout'''
         self._requestQueue.put(request, block, timeout)
         self.workRequests[request.requestID] = request
-        
+
     def poll(self,block = False):
         while True:
             if not self.workRequests:

@@ -88,7 +88,7 @@ class IndexView(View):
                     if user.is_active:
                         login(request, user)
                         logger.info('用户[{}]登录成功!'.format(user))
-                    return HttpResponseRedirect(reverse('index'))
+                    return HttpResponseRedirect(reverse('index1.html'))
                 else:
                     userdict = json.loads(get_member_info(username))  # 根据用户名获取用户的中文名字
                     if userdict['errcode'] == 0:
@@ -102,7 +102,7 @@ class IndexView(View):
                         users.save()
                         user = authenticate(username=username, password='love.1993')
                         login(request, user)
-                        return HttpResponseRedirect(reverse('index'))
+                        return HttpResponseRedirect(reverse('index1.html'))
                     else:
                         return render(request, '404.html', {'msg': '未能从企业微信获取到用户中文名称'})
             else:
@@ -122,7 +122,7 @@ class IndexView(View):
         state = request.GET.get('state', '')
         if state:
             all_mobile = all_mobile.filter(mobile_state=state)
-        return render(request, 'index.html', {
+        return render(request, 'index1.html.html', {
             'all_mobile': all_mobile,
             'all_mobile_type': all_mobile_type,
             'all_types': all_types,
@@ -161,7 +161,7 @@ class ShenQing(View):
                     user = User.objects.get(first_name=curent_username).username
                     sendinfo(user, content.encode('utf8'))
                     # sendinfo("sunyange", content.encode('utf8'))
-                    return HttpResponseRedirect(reverse('index'))
+                    return HttpResponseRedirect(reverse('index1.html'))
                 except:
                     return render(request, '404.html', {'msg': '推送微信信息失败！'})
             else:
@@ -180,7 +180,7 @@ class ShenQing(View):
                     # 根据用户名推送微信消息
                     sendinfo(user, content.encode('utf8'))
                     # sendinfo("sunyange", content.encode('utf8'))
-                    return HttpResponseRedirect(reverse('index'))
+                    return HttpResponseRedirect(reverse('index1.html'))
                 except:
                     return render(request, '404.html', {'msg': '推送微信信息失败！'})
         else:
@@ -202,7 +202,7 @@ class GuiHuan(View):
         #     content = u'{}正在归还手机，手机型号为：{}'.format(username, mobile_type)
         #     try:
         #         sendinfo(user, content.encode('utf8'))  # 根据用户名推送微信消息
-        #         return HttpResponseRedirect(reverse('index'))
+        #         return HttpResponseRedirect(reverse('index1.html'))
         #     except:
         #         return render(request, '404.html', {'msg': '推送微信信息失败！'})
         # else:
@@ -211,7 +211,7 @@ class GuiHuan(View):
             return render(request, '404.html', {'msg': '权限不够，请联系管理员！'})
         # 更新信息
         MobileInfo.objects.filter(sn=sn).update(update_time=datetime.now(), current_user=u'孙彦阁', last_user=str(mobile_current_user),  mobile_state='free')
-        return HttpResponseRedirect(reverse('index'))
+        return HttpResponseRedirect(reverse('index1.html'))
 
 
 class QueRen(View):

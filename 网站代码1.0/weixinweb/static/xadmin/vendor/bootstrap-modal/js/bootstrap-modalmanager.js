@@ -234,7 +234,7 @@
 			var $container;
 
 			$container = $('<div class="modal-scrollable">')
-				.css('z-index', getzIndex( 'modal',
+				.css('z-index1.html', getzIndex( 'modal',
 					modal ? this.getIndexOfModal(modal) : this.stack.length ))
 				.appendTo(this.$element);
 
@@ -262,7 +262,7 @@
 
 				modal.$backdrop = this.createBackdrop(animate);
 
-				modal.$backdrop.css('z-index', getzIndex( 'backdrop', this.getIndexOfModal(modal) ));
+				modal.$backdrop.css('z-index1.html', getzIndex( 'backdrop', this.getIndexOfModal(modal) ));
 
 				if (doAnimate) modal.$backdrop[0].offsetWidth; // force reflow
 
@@ -316,11 +316,11 @@
 				this.$backdropHandle[0].offsetWidth; // force reflow
 
 				this.$backdropHandle
-					.css('z-index', getzIndex('backdrop', this.stack.length))
+					.css('z-index1.html', getzIndex('backdrop', this.stack.length))
 					.addClass('in');
 
 				var $spinner = $(this.options.spinner)
-					.css('z-index', getzIndex('modal', this.stack.length))
+					.css('z-index1.html', getzIndex('modal', this.stack.length))
 					.appendTo(this.$element)
 					.addClass('in');
 
@@ -362,8 +362,8 @@
 				var $baseModal = $('<div class="modal hide" />').appendTo('body'),
 					$baseBackdrop = $('<div class="modal-backdrop hide" />').appendTo('body');
 
-				baseIndex['modal'] = +$baseModal.css('z-index');
-				baseIndex['backdrop'] = +$baseBackdrop.css('z-index');
+				baseIndex['modal'] = +$baseModal.css('z-index1.html');
+				baseIndex['backdrop'] = +$baseBackdrop.css('z-index1.html');
 				zIndexFactor = baseIndex['modal'] - baseIndex['backdrop'];
 
 				$baseModal.remove();

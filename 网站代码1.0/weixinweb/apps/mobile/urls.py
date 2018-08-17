@@ -6,7 +6,7 @@ from django.conf.urls import url
 from views import IndexView, LoginView, ShenQing, GuiHuan, QueRen
 
 urlpatterns = [
-    url(r'^$', IndexView.as_view(), name='index'),
+    url(r'^$', IndexView.as_view(), name='index1.html'),
     url(r'^login/', LoginView.as_view(), name='login'),
     url(r'^shenqing/', ShenQing.as_view(), name='shenqing'),
     url(r'^guihuan/', GuiHuan.as_view(), name='guihuan'),

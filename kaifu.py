@@ -22,6 +22,12 @@ def getgrains():
     sid = hostname[-1]
     return gamename,ip,sid
 
+def rename_xml(oldsid,sid):
+    xmlfile = '/home/soidc/wly_web/config/Servers{}.dat'.format(oldsid.lstrip('0'))
+    new_xmlfile = '/home/soidc/wly_web/config/Servers{}.dat'.format(sid.lstrip('0'))
+    os.rename(xmlfile,new_xmlfile)
+    return new_xmlfile
+
 def change_conf():
     gamename,ip,sid = getgrains()
     copyfile('/etc/conf/uqee/{}/server/config.json'.format(gamename),'/etc/conf/uqee/{}/server/config.json.bak'.format(gamename))
@@ -68,7 +74,7 @@ def change_conf():
         data['server']["web"]["admin"]["ip"] = ip
         try:
 	    data['peer']['local']['address'] = '{}:1268'.format(ip)
-	except Exception ,e:
+	    except Exception ,e:
 	    print('error' ,e,'happened')
     elif gamename == 'legendary' or gamename == 'naruto':
         olddomain = data['server']['report']['address'].split('.')
@@ -116,31 +122,32 @@ def change_conf():
             data['server']['name'] = '1k2k-{}区'.format(sid.lstrip('0'))
             data['server']["peer"]["name"] = '1k2k-{}区'.format(sid.lstrip('0'))
     elif gamename == 'lyingdragon':
+        platform = oldid.split('-')[-2]
         data['admin']['auth']['ip'] = newipauth
         data['cluster']['id'] = newid
         data['server']['id'] = newid
         data['server']['partner']['id'] = sid.lstrip('0')
         data['server']['peer']['name'] = newname
         data['peer']['local']['address'] = '{}:1268'.format(ip)
-        if oldid.split('-')[-2] == 'lqw':
+        if platform == 'lqw':
             data['server']['name'] = '乐趣{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.snsfun.com'.format(sid.lstrip('0'))
-        elif oldid.split('-')[-2] == '1k2k':
+        elif platform == '1k2k':
             data['server']['name'] = '1k2k-{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.1k2k.com'.format(sid.lstrip('0'))
-        elif oldid.split('-')[-2] == '2686':
+        elif platform == '2686':
             data['server']['name'] = '2686-{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.2686.com'.format(sid.lstrip('0'))
-        elif oldid.split('-')[-2] == '5qwan':
+        elif platform == '5qwan':
             data['server']['name'] = '5qwan-{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.5qwan.com'.format(sid.lstrip('0'))
-        elif oldid.split('-')[-2] == 'qq990':
+        elif platform == 'qq990':
             data['server']['name'] = 'QQ990-{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.qq990.com'.format(sid.lstrip('0'))
-        elif oldid.split('-')[-2] == '789hi':
+        elif platform == '789hi':
             data['server']['name'] = '789hi-{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.789hi.com'.format(sid.lstrip('0'))
-        elif oldid.split('-')[-2] == 'lehh':
+        elif platform == 'lehh':
 #data['peer']['center']['address'] = '{}:1268'.format(ip)
             data['server']['name'] = '乐嗨嗨{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.lehaihai.uqeegame.com'.format(sid.lstrip('0'))
@@ -154,7 +161,7 @@ def change_conf():
 #              "id": "{}".format(newid),
 #              "reportaddress": "s{}.wly.lehaihai.uqeegame.com".format(sid.lstrip('0'))
 #          }
-        elif oldid.split('-')[-2] == 'xiongmw':
+        elif platform == 'xiongmw':
             data['peer']['center']['address'] = '{}:1268'.format(ip)
             data['server']['name'] = '熊猫玩{}区'.format(sid.lstrip('0'))
             data['server']['report']['address'] = 's{}.wly.xiongmaowan.uqeegame.com'.format(sid.lstrip('0'))
@@ -168,13 +175,67 @@ def change_conf():
               "id": "{}".format(newid),
               "reportaddress": "s{}.wly.xiongmaowan.uqeegame.com".format(sid.lstrip('0'))
             }
+        oldconfigfile = '/etc/conf/uqee/lyingdragon/server/config.json.bak'
+        with open(oldconfigfile) as f2:
+            data2 = json.load(f2.read())
+            oldsid = data2['server']['partner']['id']
+        new_xmlfile = rename_xml(oldsid, sid )
+        wly_xml(new_xmlfile,sid,platform)
 
     with open(configfile, 'w') as f1:
         f1.write(json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False))
         f1.write('\n')
 
-def wly_xml():   #wly && khbd
-    pass
+def wly_xml(xmlfile,sid,platform):   #wly && khbd
+    tree = et.parse(xmlfile)
+    #newtitle = raw_input("请输入新的title:")
+    for i in tree.iter(tag="ServerList"):
+        i.attrib['ident'] = '{}'.format(sid.lstrip('0'))
+        tree.write(xmlfile, encoding="utf-8")
+    for i in tree.iter(tag="Server"):
+        if platform == 'lehh':
+            i.attrib['host'] = 's{}.wly.lehaihai.uqeegame.com'.format(sid.lstrip('0'))
+        if platform == '1k2k':
+            i.attrib['host'] = 's{}.wly.1k2k.com'.format(sid.lstrip('0'))
+        if platform == '2686':
+            i.attrib['host'] = 's{}.wly.2686.com'.format(sid.lstrip('0'))
+        if platform == 'qq990':
+            i.attrib['host'] = 's{}.wly.qq990.com'.format(sid.lstrip('0'))
+        if platform == 'lqw':
+            i.attrib['host'] = 's{}.wly.snsfun.com'.format(sid.lstrip('0'))
+        tree.write(xmlfile, encoding="utf-8")
+    for i in tree.iter(tag="GameEvent"):
+        if platform == '1k2k':
+            i.attrib['url'] = 'http://s{}.wly.1k2k.com:9103/player/state'.format(sid.lstrip('0'))
+        if platform == '2686':
+            i.attrib['url'] = 'http://s{}.wly.2686.com:9103/player/state'.format(sid.lstrip('0'))
+        if platform == 'qq990':
+            i.attrib['url'] = 'http://s{}.wly.qq990.com:9103/player/state'.format(sid.lstrip('0'))
+        tree.write(xmlfile, encoding="utf-8")
+    for i in tree.iter(tag="Main"):
+        #i.attrib['title'] = '{}'.format(newtitle)
+        #tree.write(xmlfile, encoding="utf-8", xml_declaration=True)
+        if platform == '1k2k':
+            i.attrib['favname'] = '1k2k卧龙吟双线{}区'.format(sid.lstrip('0'))
+            i.attrib['title'] = '双线{}区'.format(sid.lstrip('0'))
+        if platform == '2686':
+            i.attrib['url'] = 'http://www.2686.com/game.php?id={}'.format(sid.lstrip('0'))
+        if platform == 'lehh':
+            i.attrib['favname'] = '乐嗨嗨卧龙吟{}区'.format(sid.lstrip('0'))
+            i.attrib['title'] = '乐嗨嗨卧龙吟{}区'.format(sid.lstrip('0'))
+            i.attrib['welcome'] = '欢迎来到乐嗨嗨《卧龙吟》{}区！'.format(sid.lstrip('0'))
+        if platform == 'lqw':
+            i.attrib['favname'] = '乐趣网卧龙吟双线{}区'.format(sid.lstrip('0'))
+            i.attrib['title'] = '乐趣网卧龙吟双线{}区'.format(sid.lstrip('0'))
+            i.attrib['welcome'] = '欢迎来到乐趣网《卧龙吟>》双线{}区！'.format(sid.lstrip('0'))
+        tree.write(xmlfile, encoding="utf-8", xml_declaration=True)
+    for i in tree.iter(tag="Bug"):
+        if platform == 'qq990':
+            i.attrib['posturl'] = \
+                'http://s1035.wly.qq990.com/redirect?url=http://wlymanager.uqee.com/SendFeedBack'\
+                .format(sid.lstrip('0'))
+        tree.write(xmlfile, encoding="utf-8", xml_declaration=True)
+
 def khbd_xml(xmlfile,sid,newdomain,platform):
     tree = et.parse(xmlfile)
     #更新id
