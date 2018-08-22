@@ -1,4 +1,8 @@
-import hmac
+def testFun():
+  temp = [lambda x ,i=i : i*x for i in range(4)]
+  return temp
 
-h = hmac.new('含笑'.encode('utf-8'),'如花'.encode('utf-8'))
-print(h.digest())
+for everyLambda in testFun():
+  print (everyLambda(2))
+
+

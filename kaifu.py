@@ -203,6 +203,40 @@ def wly_xml(xmlfile,sid,platform):   #wly && khbd
             i.attrib['host'] = 's{}.wly.qq990.com'.format(sid.lstrip('0'))
         if platform == 'lqw':
             i.attrib['host'] = 's{}.wly.snsfun.com'.format(sid.lstrip('0'))
+        if platform == '5qwan':
+            i.attrib['host'] = 's{}.wly.5qwan.com'.format(sid.lstrip('0'))
+        tree.write(xmlfile, encoding="utf-8")
+    for i in tree.iter(tag="GameEvent"):
+        if platform == '1k2k':
+            i.attrib['url'] = 'http://s{}.wly.1k2k.com:9103/player/state'.format(sid.lstrip('0'))
+        if platform == '2686':
+            i.attrib['url'] = 'http://s{}.wly.2686.com:9103/player/state'.format(sid.lstrip('0'))
+        if platform == 'qq990':
+            i.attrib['url'] = 'http://s{}.wly.qq990.com:9103/player/state'.format(sid.lstrip('0'))
+        if platform == '5qwan':
+            i.attrib['url'] = 'http://s{}.wly.5qwan.com:9103/player/state'.format(sid.lstrip('0'))
+        tree.write(xmlfile, encoding="utf-8")
+    for i in tree.iter(tag="Main"):
+        #i.attrib['title'] = '{}'.format(newtitle)
+        #tree.write(xmlfile, encoding="utf-8", xml_declaration=True)
+        if platform == '1k2k':
+            i.attrib['favname'] = '1k2k卧龙吟双线{}区'.format(sid.lstrip('0'))
+            i.attrib['title'] = '双线{}区'.format(sid.lstrip('0'))
+        if platform == '2686':
+            i.attrib['url'] = 'http://www.2686.com/game.php?id={}'.format(sid.lstrip('0'))
+        if platform == 'lehh':
+            i.attrib['favname'] = '乐嗨嗨卧龙吟{}区'.format(sid.lstrip('0'))
+            i.attrib['title'] = '乐嗨嗨卧龙吟{}区'.format(sid.lstrip('0'))
+            i.attrib['welcome'] = '欢迎来到乐嗨嗨《卧龙吟》{}区！'.format(sid.lstrip('0'))
+        if platform == 'lqw':
+            i.attrib['favname'] = '乐趣网卧龙吟双线{}区'.format(sid.lstrip('0'))
+            i.attrib['title'] = '乐趣网卧龙吟双线{}区'.format(sid.lstrip('0'))
+            i.attrib['welcome'] = '欢迎来到乐趣网《卧龙吟>》双线{}区！'.format(sid.lstrip('0'))
+        tree.write(xmlfile, encoding="utf-8", xml_declaration=True)
+    for i in tree.iter(tag="Bug"):
+        if platform == 'qq990':
+            i.attrib['posturl'] = \
+                'http://s{}.wly.qq990.com/redirect?url=http://wlymanager.uqee.com/SendFeedBack'.format(sid.lstrip('0'))
         tree.write(xmlfile, encoding="utf-8")
     for i in tree.iter(tag="GameEvent"):
         if platform == '1k2k':
