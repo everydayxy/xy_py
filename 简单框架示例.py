@@ -1,11 +1,12 @@
 import webob
 from webob import exc
 #from webob.dec import wsgify
+import re
 from functools import wraps
 from urllib.parse import parse_qs
 import os
 
-# wsgify 装饰器实现
+#wsgify 装饰器实现
 def wsgify(fn):
     @wraps(fn)
     def wrap(self,environ,start_response):
@@ -16,32 +17,35 @@ def wsgify(fn):
 
 
 class Application:
-    ROUTER = {}
+    ROUTER = []
 
     @classmethod
-    def register(cls,path):
+    def register(cls,pattern):
         def wrap(handler):
-            cls.ROUTER[path] = handler
+            cls.ROUTER.append((re.compile(pattern),handler))
+            #cls.ROUTER[path] = handler
             return handler
         return wrap
 
 
     @wsgify
     def __call__(self,request):
-        try:
-            return self.ROUTER[request.path](request)
-        except KeyError:
-            raise exc.HTTPNotFound('ooops')
+        #try:
+        for pattern,handler in self.ROUTER:
+            if pattern.match(request.path):
+                return handler(request)
+        #except KeyError:
+        raise exc.HTTPNotFound()
 
-@Application.register('/home')
+@Application.register('^/home$')
 def home(request):
     return webob.Response(body='home page',content_type='text/plain')
 
-@Application.register('/')
+@Application.register('^/$')
 def index(request):
     return webob.Response(body='index page',content_type='text/plain')
 
-@Application.register('/hello')
+@Application.register('^/hello$')
 def hello(request):
     name = request.params.get('name')
     age = request.params.get('age')
