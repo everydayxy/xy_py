@@ -1,29 +1,13 @@
-import time
+class A:
+    def __init__(self,data):
+        self.data = data
+    def __setattr__(self, key, value):
+        self.__dict__['data'] = value #赋值
+        print(self.__dict__,'赋值ing')
+    def __getattr__(self, item):
+        print('赋值ing')
 
-def time_a(func):
-    def wrapper(*args,**kwargs):
-        start_time = time.time()
-        func(*args,**kwargs)
-        stop_time = time.time()
-        print('func costs',stop_time-start_time)
-    return wrapper
 
-# def timer(func):
-#     def wrapper(name):
-#         start_time = time.time()
-#         func(name)
-#         stop_time = time.time()
-#         print('func costs',stop_time-start_time)
-#     return wrapper
-#
-def foo(*args,**kwargs):
-    time.sleep(3)
-    print('%s in the foo %s' % (args,kwargs))
-#
-# foo = timer(foo)
-# foo('xiayang')
 
-print(foo.__name__)
-foo = time_a(foo)
-print(foo.__name__)
-foo('jjj','aaaa',{'a':1})
+A('a')
+
