@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #coding:utf-8
 #开服自动配置服务端json文件
-#自动配置葵花客户端xml文件，不适用khyqios,kh91sj,khhutong 域名格式不同 开的也很少
+#自动配置卧龙吟,小天王，木叶，梦回，葵花，萌新的配置文件（卧龙吟国内混服和越南vng的除外）
 import json
 import sys
 import os

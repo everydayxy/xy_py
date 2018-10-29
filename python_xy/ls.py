@@ -15,7 +15,7 @@ def list_dir(filepath):
     #     if not item1.startswith('.'):
     #         item.append('{}/{}'.format(filepath,item1))
     # return item
-    return ('{}/{}'.format(filepath,item) for item in sorted(dir_and_file_names) if not item.startswith('.'))
+    return ('{}/{}'.format(filepath,item1) for item1 in sorted(dir_and_file_names) if not item1.startswith('.'))
 
 def get_size(filepath):
     if not args.human:
