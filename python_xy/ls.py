@@ -8,13 +8,14 @@ sys.setdefaultencoding('utf8')
 
 
 def list_dir(filepath):
-    item = []
+    # item = []
     person_dir = next(os.walk(filepath))
     dir_and_file_names = person_dir[1] + person_dir[2]
-    for item1 in sorted(dir_and_file_names):
-        if not item1.startswith('.'):
-            item.append('{}/{}'.format(filepath,item1))
-    return item
+    # for item1 in sorted(dir_and_file_names):
+    #     if not item1.startswith('.'):
+    #         item.append('{}/{}'.format(filepath,item1))
+    # return item
+    return ('{}/{}'.format(filepath,item) for item in sorted(dir_and_file_names) if not item.startswith('.'))
 
 def get_size(filepath):
     if not args.human:
@@ -23,9 +24,9 @@ def get_size(filepath):
     idx = 0
     size = os.stat(filepath).st_size
     while size > 1024:
-        size /= 1024
+        size /= 1024.0
         idx += 1
-    return '{}{}'.format(size,units[idx])
+    return '{:.1f}{}'.format(size,units[idx])
 
 def permissions_to_unix_name(filepath):
     st = os.stat(filepath)
