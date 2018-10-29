@@ -56,9 +56,9 @@ def filter_last(filepath):
 def main():
     for filepath in args.path:
         for new_item in list_dir(filepath):
-            if not args.longformat:
-                print(new_item)
-            if args.longformat:
+            if not args.longformat and not args.human:
+                print(filter_last(new_item))
+            if args.longformat or args.human:
                 print('{}'.format(long_format(new_item)))
 
 if __name__ == '__main__':
