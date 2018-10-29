@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="901b3428-19cd-48ea-a31d-3402679835fc" name="xiayang" url="http://122.226.109.133">
-        <fileTransfer host="122.226.109.133" port="7823" rootFolder="/home/xiayang/" accessType="SFTP">
+      <webServer id="354f8530-6193-4134-aeae-ebc57a1f7205" name="xiayang_uqee" url="http://122.226.109.133">
+        <fileTransfer host="xiayang@122.226.109.133" port="7823" rootFolder="/home/xiayang" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

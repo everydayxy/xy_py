@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="xiayang">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="xiayang_uqee">
     <serverData>
-      <paths name="xiayang">
+      <paths name="xiayang_uqee">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/xiayang/xiayang_py" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/python_xy" local="$PROJECT_DIR$/python_xy" web="/" />
           </mappings>
         </serverdata>
       </paths>
