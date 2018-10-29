@@ -310,5 +310,3 @@ def khbd_xml(xmlfile,sid,newdomain,platform):
 
 if __name__ == '__main__':
     change_conf()
-
-
