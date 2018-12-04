@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding:utf8
 
-
+import logging
 import paramiko
 import argparse
 import sys
@@ -18,6 +18,11 @@ class run(object):
         self.host_lists = get_remote_host()
         self.normal = open('normal.log','w')
         self.error = open('error.log','w')
+        logging.basicConfig(level=logging.INFO,
+                            format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+                            datefmt='%a, %d %b %Y %H:%M:%S',
+                            filename='game_update.log',
+                            filemode='w')
 
     def argument(self):
         parse = argparse.ArgumentParser()
@@ -90,7 +95,9 @@ class run(object):
                     print('generated an exception: %s' % (future.exception()))
                 else:
                     n,e = future.result()
-                    print('percent: {1:0.2f}%,  excuting host: {0} '.format(host_name,(current_hostname/float(total_host))*100))
+                    logging.info('percent: {1:0.2f}%,  excuting host: {0} '.format(
+                        host_name,(current_hostname/float(total_host))*100)
+                    )
                     self.normal.write('{}:\n{}'.format(host_name,n))
                     self.error.write('{}:\n{}'.format(host_name,e))
                     current_hostname +=1
@@ -103,3 +110,6 @@ if __name__ == '__main__':
     AAA = run()
     args = AAA.argument()
     AAA.main(args.cmd_value, AAA.remote_ssh, args.num_value)
+
+
+    ###########################
