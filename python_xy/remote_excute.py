@@ -65,7 +65,7 @@ class run(object):
             new_std_err = stderr.read()
             client.close()
         except:
-            logging.ERROR('没连上这个服务器')
+            logging.error('没连上这个服务器')
         return new_std_out,new_std_err
 
 
