@@ -65,7 +65,7 @@ class run(object):
             new_std_err = stderr.read()
             client.close()
         except:
-            print('没连上这个服务器')
+            logging.ERROR('没连上这个服务器')
         return new_std_out,new_std_err
 
 
@@ -92,7 +92,7 @@ class run(object):
             for future in futures.as_completed(obj_dict):
                 host_name = obj_dict[future]
                 if future.exception() is not None:
-                    print('generated an exception: %s' % (future.exception()))
+                    logging.error('generated an exception: %s' % (future.exception()))
                 else:
                     n,e = future.result()
                     logging.info('percent: {1:0.2f}%,  excuting host: {0} '.format(
