@@ -39,16 +39,14 @@ def join_game(playerid):
         print('游戏房间编号: {} , 游戏id: {},地图尺寸: {}, 游戏状态: {}'.format(k,v['id'],map_description_dict[v['map']],game_status_description_dict[str(v['state'])]))
         zipped_id_dict[k] = v['id']
     your_choice_gameid_num = input('请输入你需要选择的游戏编号(只能选择游戏状态为等待加入的): ')
-    try:
-        your_choice_gameid = zipped_id_dict[your_choice_gameid_num]
-    except KeyError:
-        print('没有这个游戏编号')
-    JoinGame_flag = JoinGame(your_choice_gameid, playerid)
-    if JoinGame_flag == True:
-        print('加入游戏成功')
-        return your_choice_gameid
-    else:
-        return None
+    your_choice_gameid = zipped_id_dict.get(your_choice_gameid_num,None)
+    if your_choice_gameid:
+        JoinGame_flag = JoinGame(your_choice_gameid, playerid)
+        if JoinGame_flag == True:
+            print('加入游戏成功')
+            return your_choice_gameid
+        else:
+            return None
 
 def create_game():
     while True:
@@ -88,19 +86,20 @@ def waiting_for_play_game(gameid):
             time.sleep(5)
             count += 1
 
-def find_base_location(gameid,playerindex):
+def find_base_location(gameid,playerid):
+    all_base_location = []
     enemy_base_location = []
-    other_player_index = []
     GetGame_ret_dict = GetGame(gameid)
-    for y in GetGame_ret_dict['Players']:
-            if y['Index'] != playerindex and y['Index'] != 0 :
-                other_player_index.append(y['Index'])
-
+    GetPlayer_ret_dict = GetPlayer(playerid)
+    my_base_location = GetPlayer_ret_dict['Bases']
     for x in GetGame_ret_dict['Cells']:
         for i in x:
-            if i['Type'] == 2 and i['Owner'] in other_player_index:
+            if i['Type'] == 2:
                 print(i['X'],i['Y'])
-                enemy_base_location.append([i['X'],i['Y']])
+                all_base_location.append([i['X'],i['Y']])
+    for y in all_base_location:
+        if y != my_base_location:
+            enemy_base_location.append(y)
 
     return enemy_base_location
 
@@ -122,8 +121,8 @@ def main():
                 print('目前的gameid: {}'.format(gameid))
                 break
         else:
-            pass
-    enemy_base_location = find_base_location(gameid,myplayerindex)
+            print('没有这个gameid，请重新选择')
+    enemy_base_location = find_base_location(gameid,myplayerid)
     print(enemy_base_location)
 
 
