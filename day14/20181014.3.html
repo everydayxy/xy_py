@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form enctype="multipart/form-data">
+       <div>
+            <select name="city" size="4" multiple="multiple">
+                <option value="1">北京</option>
+                <option value="2" selected="selected">上海</option>
+                <option value="3">广州</option>
+                <option value="4">成都</option>
+            </select>
+            <input type="text">
+
+            <p>请输入性别:</p>
+            男：<input type="radio" value="1" name="gender" >
+            女：<input type="radio" value="2" name="gender">
+            中性：<input type="radio" value="3" name="gender" checked="checked">
+            <p>请输入兴趣爱好:</p>
+            撩妹：<input type="checkbox" value="1" name="favor" >
+            写代码：<input type="checkbox" value="2" name="favor" checked="checked">
+            打游戏：<input type="checkbox" value="3" name="favor">
+            噶散户：<input type="checkbox" value="4" name="favor" checked="checked">
+       </div>
+            <br/>
+        <div>
+            <input type="submit" value="提交">
+            <input type="reset" value="重置">
+        </div>
+        <br/>
+        <div>
+            <h5>上传文件:</h5>
+            <input type="file" name="fname">
+        </div>
+        <div>
+            <p>
+                <textarea name="meno"></textarea>
+            </p>
+        </div>
+    </form>
+</body>
+</html>
