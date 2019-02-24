@@ -125,6 +125,5 @@ def main():
     enemy_base_location = find_base_location(gameid,myplayerid)
     print(enemy_base_location)
 
-
 if __name__ == '__main__':
     main()
