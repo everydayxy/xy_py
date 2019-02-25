@@ -111,5 +111,21 @@ def GetMap(name):
         print("获取地图信息失败！")
         return None
 
+def Attack(gameID,playerID,attck_X,attack_Y):
+    url = "http://test.magcore.clawit.com/api/cell/"
+    payload = "{\"Game\":\"%s\", \"Player\":\"%s\", \"X\":%d, \"Y\":%d}" % (gameID,playerID,attck_X,attack_Y)
+    headers = {
+        'Content-Type': "application/json",
+        'Cache-Control': "no-cache"
+    }
+    response = requests.request("PUT", url, data=payload, headers=headers)
+    print(response.text)
+    if response.status_code == 200:
+        return True
+    else:
+        print("攻击失败！")
+        return False
+
+
 if __name__ == '__main__':
     pass

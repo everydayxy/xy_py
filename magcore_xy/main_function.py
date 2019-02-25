@@ -70,16 +70,25 @@ def whether_join_exiting_game(playerid):
     # 不加入现有游戏
     elif join_or_not == 0:
         gameid = create_game()
-        return gameid
+        JoinGame_flag = JoinGame(gameid, playerid)
+        if JoinGame_flag == True:
+            print('加入游戏成功')
+            return gameid
+        else:
+            return None
 
-def waiting_for_play_game(gameid):
+def waiting_for_play_game(gameid,playerindex):
     count = 0
     while True:
-        StartGame_flag = StartGame(gameid)
-        if StartGame_flag == True:
+        enemy_index = []
+        GetGame_ret_dict = GetGame(gameid)
+        for player in GetGame_ret_dict['Players']:
+            if player['Index'] != playerindex:
+                enemy_index.append(enemy_index)
+        if len(enemy_index) > 0:
             return True
         else:
-            if count > 5:
+            if count > 6:
                 print('重试次数过多，请重新进入！')
                 return False
             print('等待玩家进入。。。。')
@@ -92,16 +101,17 @@ def find_base_location(gameid,playerid):
     GetGame_ret_dict = GetGame(gameid)
     GetPlayer_ret_dict = GetPlayer(playerid)
     my_base_location = GetPlayer_ret_dict['Bases']
+    print(my_base_location)
     for x in GetGame_ret_dict['Cells']:
         for i in x:
             if i['Type'] == 2:
                 print(i['X'],i['Y'])
-                all_base_location.append([i['X'],i['Y']])
+                all_base_location.append(['{},{}'.format(i['X'],i['Y'])])
     for y in all_base_location:
         if y != my_base_location:
             enemy_base_location.append(y)
 
-    return enemy_base_location
+    return my_base_location , enemy_base_location
 
 def main():
     # 获取玩家初始化状态
@@ -115,15 +125,46 @@ def main():
         gameid = whether_join_exiting_game(myplayerid)
         if gameid:
             # 等待玩家进入
-            flag = waiting_for_play_game(gameid)
+            flag = waiting_for_play_game(gameid,myplayerindex)
             if flag:
                 print('玩家进入成功')
                 print('目前的gameid: {}'.format(gameid))
                 break
         else:
             print('没有这个gameid，请重新选择')
-    enemy_base_location = find_base_location(gameid,myplayerid)
+    print('当前玩家的playerid : {}'.format(myplayerid))
+    my_base_location , enemy_base_location = find_base_location(gameid,myplayerid)
     print(enemy_base_location)
+    base_x , base_y = my_base_location[0].split(',')
+    attck_goal_x, attck_goal_y = enemy_base_location[0][0].split(',')
+    start_game_flag = StartGame(gameid)
+    if start_game_flag:
+        print('开始攻击')
+        for attck_x_y in '01' * 10000:
+            less_x = int(attck_goal_x) - int(base_x)
+            less_y = int(attck_goal_y) - int(base_y)
+            attck_x = int(base_x)
+            attck_y = int(base_y)
+            if attck_x_y == '0':
+                if less_x > 0:
+                    attck_x = int(base_x) + 1
+                elif less_x == 0:
+                    attck_x = int(base_x)
+                elif less_x < 0:
+                    attck_x = int(base_x) - 1
+            if attck_x_y == '1':
+                if less_y > 0:
+                    attck_y = int(base_y) + 1
+                elif less_y == 0:
+                    attck_y = int(base_y)
+                elif less_y < 0:
+                    attck_y = int(base_y) - 1
+            attack_flag = Attack(gameid,myplayerid,attck_x,attck_y)
+            if attack_flag is False:
+                break
+            base_x = attck_x
+            base_y = attck_y
+            time.sleep(5)
 
 if __name__ == '__main__':
     main()
