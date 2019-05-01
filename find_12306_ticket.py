@@ -3,9 +3,10 @@ import json
 
 def get_City_data():
     '''
-    城市代码获取
+    城市代码对应表获取，生成
     '''
     url = 'https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9098'
+    # 伪造浏览器登陆
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36'
         }
@@ -35,9 +36,12 @@ def get_trains_info(date,from_station,to_station):
     return html
 
 def main(date,startcity,endcity):
-
+    # 获取全国的火车站的名字及代码对应表
     data = get_City_data()
+    # 返回火车票接口查询数据
     info = get_trains_info(date,data[startcity],data[endcity])
+    # info:
+    # {"data":{"flag":"1","map":{"HHC":"呼和浩特","SHH":"上海","SNH":"上海南"},"result":["qdgqdG3D3WtakRGGRveYXv0UT0LC%2By5Uz7Q45v2YXTTFSFD2F1ytJO5zmXQeRQSD7IqTtb3ue2mr%0ATnX9IpMriDEUepM2%2BH2d1J%2BF%2B0EM70zVFVFlX4VhLDnDrwalXkpzTvhho9OioSKh5saXppwe3dPL%0AcSgQRBqtpixVJMwPq8nOT9iRj1Ze%2BzDYkPcDowgWH88EipYmYGFxBaELLY9NQKdKt8oUxy9TJtXI%0AARKxKTtYnDqj3nNCy%2FH6CM92pqdRxaf64KcpGiPX0nzCW3hPaD383mIfL4pok9X1MTjsI4KswOgz%0Az8xgIY%2B5shsAO50gcQYI2v0plxo%3D|预订|550000Z26810|Z268|SHH|HHC|SHH|HHC|14:54|18:10|27:16|Y|IH%2F0kUZSZGaDFtha7xB0ish50Wb1nieax2UHqb9SsTVkrWv9dhmXNOiBNA55JmKUAGXU%2Bbjb39U%3D|20190310|3|H1|01|27|0|0||无||有|||有||有|有|||||1040106030|14163|0|0|null","NNla2x3ih8pkHi7W5Z4QdHda5NT0BGE0ZTQGhfsMg32VdWZHQWK7h%2Bqyk%2BMxQ722akslmioV%2BslX%0AD2P2xXK%2BGfWedMBE2xTfQxiLHf7UirTUDUyvOpZLXt5wiyiROR0YBC4uaFtEHBluxEFYlvFf%2B7hl%0A16eGXI%2FW2AJCcuyIipMzGsZ6HFSAmvwzcdsaruYMQ3fuLRb4jJxPj2hTRMNv0zwEmy1UUrMpwUWV%0AORxv99ff%2Bk6Mc1QPbNnmYZ0w1W87wlGEjKoBEnAhw338lMOySPaveyQ%2B%2BEGKcaHkdfiWq35cqPC6%0AfKPAIqQ8pp5sJMa%2F|预订|560000Z28230|Z282|HZH|BTC|SNH|HHC|19:30|20:32|25:02|Y|ODhqzhoV01dsu9acj9mJ3Lzts24eR4unUZ0Iza%2F2I302E9%2FnR8jqeCwpVww%3D|20190310|3|H6|04|20|0|0||||3|||无||有|有|||||10401030|1413|0|0|null"]},"httpstatus":200,"messages":"","status":true}
     hjson = json.loads(info)["data"]["result"]
     # raw_train:
     # "|预订|550000Z16420|Z164|SHH|LSO|SHH|LSO|20:08|19:30|47:22|N|SIygZtG7LXRkGXyeINjk7T5kNo40ywRzkHSmSiTp6MyIlkHIGPlTcQfsc9U%3D|20190303|3|H2|01|14|0|0||||无|||无||无|无|||||10401030|1413|0|0|null"
