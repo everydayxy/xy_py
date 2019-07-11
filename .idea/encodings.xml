@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/day04/temp.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/log.txt" charset="GBK" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/../P17043-class-leader/02/store_file.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/simple_user_system/store_file.json" charset="GBK" />
   </component>
 </project>

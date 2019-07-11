@@ -6,6 +6,8 @@ import paramiko
 import argparse
 import sys
 from concurrent import futures
+import time
+from progressbar import *
 
 
 reload(sys)
@@ -14,10 +16,10 @@ sys.setdefaultencoding('utf8')
 
 class run(object):
     def __init__(self):
-        from update_file import get_remote_host
-        self.host_lists = get_remote_host()
-        self.normal = open('normal.log','w')
-        self.error = open('error.log','w')
+        from update_file import getPlatform
+        self.host_lists = getPlatform()
+	    self.normal = open('normal.log','w')
+	    self.error = open('error.log','w')
         logging.basicConfig(level=logging.INFO,
                             format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                             datefmt='%a, %d %b %Y %H:%M:%S',
@@ -51,7 +53,7 @@ class run(object):
         for x in file_lists:
             if x not in hosts_lists:
                 continue
-	    list1.append(x)
+        list1.append(x)
 
         return list1
 
@@ -63,6 +65,12 @@ class run(object):
             stdin, stdout, stderr = client.exec_command(cmd)
             new_std_out = stdout.read()
             new_std_err = stderr.read()
+            logging.info('{}\n{}'.format(ip,new_std_out))
+            logging.error('{}\n{}'.format(ip,new_std_err))
+	        #self.normal.write('{}:\n{}\n'.format(ip,new_std_out))
+	        #self.normal.flush()
+            #self.error.write('{}:\n{}\n'.format(ip,new_std_err))
+            #self.error.flush()
             client.close()
         except:
             logging.error('没连上这个服务器')
@@ -71,8 +79,8 @@ class run(object):
 
     def main(self, cmd, method, thread_num=1):
         self.update_hosts = self.get_exists_host()
-#        for i in self.update_hosts:
-#           print(i)
+        #for i in self.update_hosts:
+         #  print(i)
         try:
             r = raw_input('本次需要更新以下服务器：{},服务器数量：{}，服务器更新命令：{}，确认按1：'.format(self.host_lists,len(self.update_hosts),cmd))
             if len(r) ==  1 and r.isdigit() and int(r) == 1:
@@ -85,6 +93,10 @@ class run(object):
         obj_dict = dict()
         total_host = len(self.update_hosts)
         current_hostname = 1
+
+        progress = ProgressBar()
+        proceed_progress = progress(range(total_host))
+
         with futures.ThreadPoolExecutor(max_workers=int(thread_num)) as executor:
             for ip in self.update_hosts:
                 e = executor.submit(method,ip,cmd)
@@ -98,11 +110,19 @@ class run(object):
                     logging.info('percent: {1:0.2f}%,  excuting host: {0} '.format(
                         host_name,(current_hostname/float(total_host))*100)
                     )
-                    self.normal.write('{}:\n{}'.format(host_name,n))
-                    self.error.write('{}:\n{}'.format(host_name,e))
+                    proceed_progress.__next__()
+                    if n:
+                        self.normal.write('{}:\n{}'.format(host_name,n))
+                        self.normal.flush()
+                    if e:
+                        self.error.write('{}:\n{}'.format(host_name,e))
+                        self.error.flush()
                     current_hostname +=1
 
-
+        try:
+            proceed_progress.__next__()
+        except StopIteration:
+            print
         self.normal.close()
         self.error.close()
 

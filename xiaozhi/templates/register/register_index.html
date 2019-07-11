@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+*{margin: 0; padding: 0;}
+.location {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top:1000px;
+    right: 200px;
+}
+.btn {
+        display:inline-block;
+        height:82px;
+        line-height:62px;
+        color:#FFF;
+        border-top:10px solid transparent;
+        border-bottom:10px solid transparent;
+        border-left:50px solid transparent;
+        border-right:50px solid transparent;
+        border-image-source:url("https://image-static.segmentfault.com/118/667/1186679267-5c9d891b97b51");
+        border-image-slice: 10 50 fill;
+        border-image-repeat: stretch;
+        box-sizing:border-box;
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+</head>
+<body>
+    <div class="location"></div>
+        <table border="2">
+            <tr>
+                <td>
+                    用户名
+                </td>
+                <td>
+                    <input  type="text" placeholder="请输入用户名" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    密码
+                </td>
+                <td>
+                    <input type="password" placeholder="请输入密码" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="btn" type="submit">登陆</button>
+                    <button class="btn" type="submit">注册</button>
+                </td>
+            </tr>
+        </table>
+
+
+</body>
+</html>

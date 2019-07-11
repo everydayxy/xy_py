@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/日常练习/map.reduce.py" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/日常练习/菲波那切数列.py" line="2" />
+    <bookmark url="file://$PROJECT_DIR$/日常练习/菲波那切数列.py" line="9" />
+    <bookmark url="file://$PROJECT_DIR$/日常练习/lru缓存装饰器实现.py" line="96" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff8e4724-1917-4838-a47a-cc8af4d63efd" name="Default" comment="" />
+    <list default="true" id="7c56890d-ad76-48d2-b940-fb34a4d6285e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/TEST/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/TEST/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/earthtemp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_xy/log_test_xy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_xy/remote_excute_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_xy/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show_log_web_page/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show_log_web_page/show_log_web_page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show_log_web_page/show_log_web_page/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show_log_web_page/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_gui_browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaozhi/register/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaozhi/templates/register/register_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiayang_qt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiayang_qt/click_and_show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiayang_qt/icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/12306_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/base64编码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/cpu密集型与io密集型的性能比较.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/lru缓存装饰器实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/单实例实现模式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/命令分发器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/字典扁平化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/拉链法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/最长公共子串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/简单python监控实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常练习/递归实现斐波那契数列与lru_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维脚本/hefu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xiayang_py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xiayang_py.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magcore_xy/game_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/magcore_xy/game_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magcore_xy/main_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/magcore_xy/main_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_xy/kaifu.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_xy/kaifu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_xy/remote_excute.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_xy/remote_excute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_xy/vng_get_gamelog.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_xy/vng_get_gamelog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日常练习/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/日常练习/test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,44 +54,101 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/xiayang_py$thread_test3.coverage" NAME="thread_test3 Coverage Results" MODIFIED="1516707666215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/xiayang_py$Unittests_in_greenlet_py.coverage" NAME="Unittests in 协程2.py Coverage Results" MODIFIED="1527866787452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/xiayang_py$python_exercise_20181124.coverage" NAME="python_exercise_20181124 Coverage Results" MODIFIED="1544327386212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xiayang_py$decorator.coverage" NAME="decorator高潮版 Coverage Results" MODIFIED="1519299668939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/xiayang_py$1.coverage" NAME="类的定义和实例化1 Coverage Results" MODIFIED="1521876916244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xiayang_py$Unittests_in_2_py.coverage" NAME="Unittests in 协程2.py Coverage Results" MODIFIED="1528541217401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/xy_py$auto_delete_file.coverage" NAME="auto_delete_file Coverage Results" MODIFIED="1553572657310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xiayang_py/auto_delete_file" />
-    <SUITE FILE_PATH="coverage/xiayang_py$20181229.coverage" NAME="20181229 Coverage Results" MODIFIED="1546054396369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xiayang_py$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1524374087400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
-    <SUITE FILE_PATH="coverage/xiayang_py$app__2_.coverage" NAME="app (2) Coverage Results" MODIFIED="1539530691798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
-    <SUITE FILE_PATH="coverage/xiayang_py$test.coverage" NAME="test Coverage Results" MODIFIED="1542514492620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xiayang_py$ls__l__a__h_.coverage" NAME="ls -l -a -h 实现 Coverage Results" MODIFIED="1522586442610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xy_py$click_and_show.coverage" NAME="click_and_show Coverage Results" MODIFIED="1552967475892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xiayang_py/xiayang_qt" />
-    <SUITE FILE_PATH="coverage/xiayang_py$main.coverage" NAME="main Coverage Results" MODIFIED="1519442785721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/xiayang_py$cs_play.coverage" NAME="cs.play Coverage Results" MODIFIED="1520498810630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xiayang_py$001.coverage" NAME="001 Coverage Results" MODIFIED="1544535850993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python17/第一周作业" />
-    <SUITE FILE_PATH="coverage/xiayang_py$.coverage" NAME="爬虫测试 Coverage Results" MODIFIED="1549949496933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xiayang_py$json.coverage" NAME="json反序列化 Coverage Results" MODIFIED="1519307978288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
-    <SUITE FILE_PATH="coverage/xiayang_py$LRU.coverage" NAME="带过期的LRU缓存装饰器 Coverage Results" MODIFIED="1524374094042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/xiayang_py$yield.coverage" NAME="yield Coverage Results" MODIFIED="1527864478925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/xiayang_py$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1538621273379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架" />
-    <SUITE FILE_PATH="coverage/xy_py$auto_clean_disk.coverage" NAME="auto_clean_disk Coverage Results" MODIFIED="1553588119111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xiayang_py/auto_clean_disk" />
-    <SUITE FILE_PATH="coverage/xiayang_py$20190106.coverage" NAME="20190106 Coverage Results" MODIFIED="1546781325481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xiayang_py$io.coverage" NAME="io与文件操作 Coverage Results" MODIFIED="1526391593368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io与文件操作" />
-    <SUITE FILE_PATH="coverage/xy_py$test.coverage" NAME="test Coverage Results" MODIFIED="1553668319167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xiayang_py/http_server_with_photo" />
-    <SUITE FILE_PATH="coverage/xiayang_py$thread_test1.coverage" NAME="thread_test1 Coverage Results" MODIFIED="1519299770188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/xiayang_py$app.coverage" NAME="app Coverage Results" MODIFIED="1538499380573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xy_py$http_server_with_photo.coverage" NAME="http_server_with_photo Coverage Results" MODIFIED="1553762302390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xiayang_py/http_server_with_photo" />
-    <SUITE FILE_PATH="coverage/xy_py$simple_gui_browser.coverage" NAME="simple_gui_browser Coverage Results" MODIFIED="1553051622576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xiayang_py" />
-    <SUITE FILE_PATH="coverage/xiayang_py$thread_test2.coverage" NAME="thread_test2 Coverage Results" MODIFIED="1519300001902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/xiayang_py$base64.coverage" NAME="base64解码 Coverage Results" MODIFIED="1524368705858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/xy_py$click_and_show__1_.coverage" NAME="click_and_show (1) Coverage Results" MODIFIED="1552981248365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/click_and_show" />
-    <SUITE FILE_PATH="coverage/xiayang_py$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1526046682030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io与文件操作" />
-    <SUITE FILE_PATH="coverage/xiayang_py$demo.coverage" NAME="demo Coverage Results" MODIFIED="1537675322743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/paramiko-master/demos" />
-    <SUITE FILE_PATH="coverage/xy_py$main_function.coverage" NAME="main_function Coverage Results" MODIFIED="1553485072502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xiayang_py/magcore_xy" />
-    <SUITE FILE_PATH="coverage/xiayang_py$test_py.coverage" NAME="test_py Coverage Results" MODIFIED="1521302625438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xy_py$auto_delete.coverage" NAME="auto_delete Coverage Results" MODIFIED="1553582713847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xiayang_py/auto_delete" />
-    <SUITE FILE_PATH="coverage/xy_py$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1553588116280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xiayang_py" />
+    <SUITE FILE_PATH="coverage/xiayang_py$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1519799864678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$simple_gui_browser.coverage" NAME="simple_gui_browser Coverage Results" MODIFIED="1552880769470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$class2.coverage" NAME="class类回忆练习2 Coverage Results" MODIFIED="1521597631033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$map_reduce.coverage" NAME="map.reduce Coverage Results" MODIFIED="1514527325176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$socket_server.coverage" NAME="socket_server Coverage Results" MODIFIED="1532323457374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$homework_python_function.coverage" NAME="homework_python_function Coverage Results" MODIFIED="1551862319859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../P17043-class-leader/05" />
+    <SUITE FILE_PATH="coverage/xiayang_py$find_12306_ticket.coverage" NAME="find_12306_ticket Coverage Results" MODIFIED="1551667213188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/find_12306_ticket" />
+    <SUITE FILE_PATH="coverage/xiayang_py$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1536297831573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$python.coverage" NAME="简单python监控实现 Coverage Results" MODIFIED="1552531348609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/日常练习" />
+    <SUITE FILE_PATH="coverage/xiayang_py$cs.coverage" NAME="cs Coverage Results" MODIFIED="1520316331140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$manage__2_.coverage" NAME="manage (2) Coverage Results" MODIFIED="1534402738421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clean_django_blog-master" />
+    <SUITE FILE_PATH="coverage/xiayang_py$homework_07.coverage" NAME="homework_07 Coverage Results" MODIFIED="1552380558543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../homework/P17043-class-leader/07" />
+    <SUITE FILE_PATH="coverage/xiayang_py$producer.coverage" NAME="producer Coverage Results" MODIFIED="1535360529951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/xiayang_py$manage.coverage" NAME="manage Coverage Results" MODIFIED="1534402030605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xysite" />
+    <SUITE FILE_PATH="coverage/xiayang_py$new_remote2.coverage" NAME="new_remote2 Coverage Results" MODIFIED="1536574981055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$ls__2_.coverage" NAME="ls (2) Coverage Results" MODIFIED="1540468540198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$main.coverage" NAME="main Coverage Results" MODIFIED="1534323675741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log_query" />
+    <SUITE FILE_PATH="coverage/xiayang_py$12306.coverage" NAME="12306 Coverage Results" MODIFIED="1536575143250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$fork__1_.coverage" NAME="fork (1) Coverage Results" MODIFIED="1540519703384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$xml.coverage" NAME="xml模块 Coverage Results" MODIFIED="1522201825524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$2.coverage" NAME="面向对象2 Coverage Results" MODIFIED="1522154154272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$.coverage" NAME="字典扁平化 Coverage Results" MODIFIED="1562765500134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$class.coverage" NAME="class类回忆练习 Coverage Results" MODIFIED="1521453130158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$ftp_server.coverage" NAME="ftp_server Coverage Results" MODIFIED="1550644994256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../P17043-class-leader/06" />
+    <SUITE FILE_PATH="coverage/xiayang_py$random_test.coverage" NAME="random_test Coverage Results" MODIFIED="1515638303979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$clean_active.coverage" NAME="clean_active Coverage Results" MODIFIED="1540479528044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1534402320382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
+    <SUITE FILE_PATH="coverage/xiayang_py$Test__mysite.coverage" NAME="Test: mysite Coverage Results" MODIFIED="1534419229001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/xiayang_py$random.coverage" NAME="random Coverage Results" MODIFIED="1514774998492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$homework_20190115.coverage" NAME="homework_20190115 Coverage Results" MODIFIED="1548398098041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../P17043-class-leader/04" />
+    <SUITE FILE_PATH="coverage/xiayang_py$app.coverage" NAME="app Coverage Results" MODIFIED="1540208168318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
+    <SUITE FILE_PATH="coverage/xiayang_py$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1532923043142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$class3.coverage" NAME="class类回忆类练习3 Coverage Results" MODIFIED="1523326760881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$find.coverage" NAME="find Coverage Results" MODIFIED="1540481179769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1562119736131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$2019030401.coverage" NAME="2019030401 Coverage Results" MODIFIED="1551693265589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../P17043-class-leader/self_small_trainning" />
+    <SUITE FILE_PATH="coverage/xiayang_py$postgres.coverage" NAME="postgres Coverage Results" MODIFIED="1510108483163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$homework_01.coverage" NAME="homework_01 Coverage Results" MODIFIED="1546998795226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../P17043-class-leader/03" />
+    <SUITE FILE_PATH="coverage/xiayang_py$lru.coverage" NAME="lru缓存装饰器实现 Coverage Results" MODIFIED="1556593505982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$_socket_server.coverage" NAME="协程_socket_server Coverage Results" MODIFIED="1532923078273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$ls.coverage" NAME="ls Coverage Results" MODIFIED="1540519801639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$update_servers.coverage" NAME="update_servers Coverage Results" MODIFIED="1540520219031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy/game_update" />
+    <SUITE FILE_PATH="coverage/xiayang_py$decorator_test1.coverage" NAME="decorator_test1 Coverage Results" MODIFIED="1518417050410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1561430122620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$ls__3_.coverage" NAME="ls (3) Coverage Results" MODIFIED="1540480629517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$system_monitor.coverage" NAME="system_monitor Coverage Results" MODIFIED="1517212216447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$event.coverage" NAME="event事件 Coverage Results" MODIFIED="1530964385268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$client.coverage" NAME="client Coverage Results" MODIFIED="1528193487104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$file_transfer_server.coverage" NAME="file_transfer_server Coverage Results" MODIFIED="1552017350346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/file_transfer" />
+    <SUITE FILE_PATH="coverage/xiayang_py$test.coverage" NAME="test Coverage Results" MODIFIED="1521620106433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1514525148346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$ssss.coverage" NAME="ssss Coverage Results" MODIFIED="1532732310656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$server.coverage" NAME="server Coverage Results" MODIFIED="1530581313496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$file_transfer_client.coverage" NAME="file_transfer_client Coverage Results" MODIFIED="1552017353917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/file_transfer" />
+    <SUITE FILE_PATH="coverage/xiayang_py$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1550644995590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../P17043-class-leader/06" />
+    <SUITE FILE_PATH="coverage/xiayang_py$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1515234485350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$homework_02.coverage" NAME="homework_02 Coverage Results" MODIFIED="1551864738194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../P17043-class-leader/05" />
+    <SUITE FILE_PATH="coverage/xiayang_py$sub_domain.coverage" NAME="sub_domain Coverage Results" MODIFIED="1516945803594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$spider_lagou.coverage" NAME="spider_lagou Coverage Results" MODIFIED="1537414046828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$get_gamelog.coverage" NAME="get_gamelog Coverage Results" MODIFIED="1540480713664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$homework.coverage" NAME="homework Coverage Results" MODIFIED="1552873678847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$zzz.coverage" NAME="zzz Coverage Results" MODIFIED="1514526164798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auth" />
+    <SUITE FILE_PATH="coverage/xiayang_py$find__1_.coverage" NAME="find (1) Coverage Results" MODIFIED="1540520097917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$bbb.coverage" NAME="bbb Coverage Results" MODIFIED="1519615824431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package_yy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$manage__3_.coverage" NAME="manage (3) Coverage Results" MODIFIED="1534419262332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mysite" />
+    <SUITE FILE_PATH="coverage/xiayang_py$server_in_select.coverage" NAME="server in select Coverage Results" MODIFIED="1521777083275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1551235623291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$cpuio.coverage" NAME="cpu密集型与io密集型的性能比较 Coverage Results" MODIFIED="1560328914988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$Inheritance.coverage" NAME="Inheritance Coverage Results" MODIFIED="1515051503284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$end_game.coverage" NAME="end_game Coverage Results" MODIFIED="1541661285448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维脚本" />
+    <SUITE FILE_PATH="coverage/xiayang_py$new_remote1.coverage" NAME="new_remote1 Coverage Results" MODIFIED="1540468223995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$gevent.coverage" NAME="gevent协程 Coverage Results" MODIFIED="1528188395948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$test_111.coverage" NAME="test_111 Coverage Results" MODIFIED="1551083819101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magcore_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$20190109.coverage" NAME="20190109 Coverage Results" MODIFIED="1547538549533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../P17043-class-leader/self_small_trainning" />
+    <SUITE FILE_PATH="coverage/xiayang_py$thread_test1.coverage" NAME="thread_test1 Coverage Results" MODIFIED="1520827479250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$lru_cache.coverage" NAME="递归实现斐波那契数列与lru_cache Coverage Results" MODIFIED="1555321741630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1516433552668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$fork.coverage" NAME="fork Coverage Results" MODIFIED="1540481168203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$threadings.coverage" NAME="threadings Coverage Results" MODIFIED="1516873574696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$fork__2_.coverage" NAME="fork (2) Coverage Results" MODIFIED="1540519854446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$homework__1_.coverage" NAME="homework (1) Coverage Results" MODIFIED="1552874371276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$update_servers__1_.coverage" NAME="update_servers (1) Coverage Results" MODIFIED="1540520443185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$_.coverage" NAME="协程_猴子补丁 Coverage Results" MODIFIED="1532920903286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$main_function.coverage" NAME="main_function Coverage Results" MODIFIED="1551099310572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magcore_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$thread_test2.coverage" NAME="thread_test2 Coverage Results" MODIFIED="1516865091594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$12306__1_.coverage" NAME="12306 (1) Coverage Results" MODIFIED="1510550851363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$12306_login.coverage" NAME="12306_login Coverage Results" MODIFIED="1552470301375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/日常练习" />
+    <SUITE FILE_PATH="coverage/xiayang_py$base64.coverage" NAME="base64编码 Coverage Results" MODIFIED="1557132840215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$Unittests_in_decorator_py.coverage" NAME="Unittests in decorator.py Coverage Results" MODIFIED="1516872863098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$20190126.coverage" NAME="20190126 Coverage Results" MODIFIED="1548486145830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../P17043-class-leader/self_small_trainning" />
+    <SUITE FILE_PATH="coverage/xiayang_py$ls__1_.coverage" NAME="ls (1) Coverage Results" MODIFIED="1540518595869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/xiayang_py$excel.coverage" NAME="excel Coverage Results" MODIFIED="1520591326063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xiayang_py$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1535360263166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/xiayang_py$remote_excute.coverage" NAME="remote_excute Coverage Results" MODIFIED="1543893929440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_xy" />
+    <SUITE FILE_PATH="coverage/xiayang_py$wly_hefu_stage_2.coverage" NAME="wly_hefu_stage_2 Coverage Results" MODIFIED="1519896024212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -57,56 +159,19 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="xiayang_py" is-module-sdk="true">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="xiayang_py" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="xiayang_py" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../xiayang_py/http_server_with_photo/http_server_with_photo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../xiayang_py/http_server_with_photo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/file_transfer/file_transfer_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1456">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Operation/simple_http_server/simple_http_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../xiayang_py/http_server_with_photo/image.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/日常练习/最长公共子串.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -114,6 +179,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
@@ -121,146 +187,185 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>size_setup</find>
-      <find>scan</find>
-      <find>expire</find>
-      <find>EOF</find>
-      <find>exit</find>
-      <find>new_dict</find>
-      <find>user</find>
-      <find>map_type_dict</find>
-      <find>waiting_for</find>
-      <find>playerin</find>
-      <find>whether_join_exiting_game</find>
       <find>Join</find>
-      <find>CreatPlayer</find>
+      <find>JoinGame</find>
+      <find>GetGame</find>
+      <find>waiting_for_play_game</find>
       <find>join_game</find>
-      <find>shutil</find>
-      <find>del_userprofile_name</find>
-      <find>del_windir_name</find>
-      <find>find_file</find>
-      <find>addr</find>
-      <find>self.server</find>
+      <find>whether_join_exiting_game</find>
+      <find>加入游戏失败！</find>
+      <find>Start</find>
+      <find>StartGame</find>
+      <find>StartGa</find>
+      <find>attck_x</find>
+      <find>Attack</find>
+      <find>GetGameList</find>
+      <find>update_wra</find>
+      <find>lru</find>
+      <find>sorted</find>
+      <find>make_key</find>
+      <find>STATIC</find>
+      <find>self._sem</find>
+      <find>self._target</find>
+      <find>daemon</find>
+      <find>merge_name</find>
+      <find>mergename</find>
+      <find>self.version_num</find>
+      <find>self.hostname</find>
+      <find>remote_exec</find>
+      <find>logging</find>
+      <find>self.game</find>
+      <find>getgametype</find>
+      <find>self._daemonic</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="xy" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/类装饰器.py" />
-        <option value="$PROJECT_DIR$/ls -l -a -h 实现.py" />
-        <option value="$PROJECT_DIR$/day07/作业.py" />
-        <option value="$PROJECT_DIR$/day05/base64解码.py" />
-        <option value="$PROJECT_DIR$/day04/__init__.py" />
-        <option value="$PROJECT_DIR$/day05/带过期的LRU缓存装饰器.py" />
-        <option value="$PROJECT_DIR$/io与文件操作/__init__.py" />
-        <option value="$PROJECT_DIR$/test" />
-        <option value="$PROJECT_DIR$/实例属性和类属性.py" />
-        <option value="$PROJECT_DIR$/io与文件操作/io与文件操作.py" />
-        <option value="$PROJECT_DIR$/day09/yield.py" />
-        <option value="$APPLICATION_HOME_DIR$/helpers/packaging_tool.py" />
-        <option value="$PROJECT_DIR$/day09/greenlet协程.py" />
-        <option value="$PROJECT_DIR$/day09/协程.py" />
-        <option value="$PROJECT_DIR$/paramiko-master/demos/interactive.py" />
-        <option value="$PROJECT_DIR$/day07/笔记" />
-        <option value="$PROJECT_DIR$/day07/属性方法测试.py" />
-        <option value="$PROJECT_DIR$/day07/属性方法示例（航空公司）.py" />
-        <option value="$PROJECT_DIR$/wsgify.py" />
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/web框架/wsgify.py" />
-        <option value="$PROJECT_DIR$/web框架/app.py" />
-        <option value="$PROJECT_DIR$/log.txt" />
-        <option value="$PROJECT_DIR$/day14/20181013.html" />
-        <option value="$PROJECT_DIR$/day14/20181014.2.html" />
-        <option value="$PROJECT_DIR$/day14/app.py" />
-        <option value="$PROJECT_DIR$/day14/20181014.3.html" />
-        <option value="$PROJECT_DIR$/day04/生成器并行.py" />
+        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/auto_login_qzone/auto_login_qzone.py" />
+        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/collect_system_info/collect_system_info.py" />
+        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Operation/collect_system_info/collect_system_info.py" />
+        <option value="$PROJECT_DIR$/../homework/P17043-class-leader/06/ftp_server.py" />
+        <option value="$PROJECT_DIR$/../homework/P17043-class-leader/06/ftp_client.py" />
+        <option value="$PROJECT_DIR$/../P17043-class-leader/06/ftp_server.py" />
+        <option value="$PROJECT_DIR$/../P17043-class-leader/06/ftp_client.py" />
+        <option value="$PROJECT_DIR$/magcore_xy/main.py" />
+        <option value="$PROJECT_DIR$/magcore_xy/test_111.py" />
+        <option value="$PROJECT_DIR$/magcore_xy/main_function.py" />
+        <option value="$PROJECT_DIR$/日常练习/单实例实现模式.py" />
+        <option value="$PROJECT_DIR$/日常练习/20190304.py" />
+        <option value="$PROJECT_DIR$/../P17043-class-leader/self_small_trainning/2019030401.py" />
+        <option value="$PROJECT_DIR$/../P17043-class-leader/05/homework_python_function.py" />
+        <option value="$PROJECT_DIR$/../P17043-class-leader/05/homework_02.py" />
+        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/file_trasfer/file_trasfer_server.py" />
+        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/file_trasfer/file_transfer_client.py" />
+        <option value="$PROJECT_DIR$/file_transfer/file_transfer_client.py" />
+        <option value="$PROJECT_DIR$/file_transfer/file_transfer_server.py" />
+        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/file_transfer/file_transfer_client.py" />
+        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/file_transfer/file_transfer_server.py" />
+        <option value="$PROJECT_DIR$/../clean_django_blog-master/author/urls.py" />
+        <option value="$PROJECT_DIR$/../homework/P17043-class-leader/07/homework_07.py" />
+        <option value="$PROJECT_DIR$/日常练习/12306_login.py" />
+        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/login_12306/12306_login.py" />
+        <option value="$PROJECT_DIR$/日常练习/简单python监控实现.py" />
+        <option value="$PROJECT_DIR$/magcore_xy/game_function.py" />
+        <option value="$PROJECT_DIR$/../homework/P17043-class-leader/02/passwd_file.json" />
+        <option value="$PROJECT_DIR$/../P17043-class-leader/02/store_file.json" />
+        <option value="$PROJECT_DIR$/../P17043-class-leader/02/passwd_file.json" />
+        <option value="$PROJECT_DIR$/../P17043-class-leader/02/homework.py" />
+        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/simple_user_system/homework.py" />
+        <option value="$PROJECT_DIR$/simple_gui_browser.py" />
+        <option value="$PROJECT_DIR$/show_log_web_page/templates/index.html" />
+        <option value="$PROJECT_DIR$/日常练习/递归实现斐波那契数列与lru_cache.py" />
+        <option value="$PROJECT_DIR$/日常练习/命令分发器.py" />
+        <option value="$PROJECT_DIR$/日常练习/拉链法.py" />
+        <option value="$PROJECT_DIR$/日常练习/三生三世.js" />
+        <option value="$PROJECT_DIR$/日常练习/lru缓存装饰器实现.py" />
+        <option value="$PROJECT_DIR$/show_log_web_page/show_log_web_page/settings.py" />
+        <option value="$PROJECT_DIR$/日常练习/base64编码.py" />
+        <option value="$PROJECT_DIR$/1111.html" />
+        <option value="$PROJECT_DIR$/show_log_web_page/show_log_web_page/main.py" />
+        <option value="$PROJECT_DIR$/show_log_web_page/show_log_web_page/view.py" />
+        <option value="$PROJECT_DIR$/日常练习/cpu密集型与io密集型的性能比较.py" />
+        <option value="$PROJECT_DIR$/日常练习/test.py" />
+        <option value="$PROJECT_DIR$/../homework/P17043-class-leader/self_small_trainning/hefu.py" />
+        <option value="$PROJECT_DIR$/运维脚本/hefu.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/python_exercise_20181118.py" />
-        <option value="$PROJECT_DIR$/python_exercise_20181124.py" />
-        <option value="$PROJECT_DIR$/第一周正式作业.py" />
-        <option value="$PROJECT_DIR$/python17/第一周正式作业.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json" />
-        <option value="$PROJECT_DIR$/python17/第一周作业/作业内容.txt" />
-        <option value="$PROJECT_DIR$/python17/第一周作业/store_file.json" />
-        <option value="$PROJECT_DIR$/python17/第一周作业/001.py" />
-        <option value="$PROJECT_DIR$/20181229.py" />
-        <option value="$PROJECT_DIR$/20190106.py" />
-        <option value="$PROJECT_DIR$/爬虫测试.py" />
-        <option value="$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/click_and_show/click_and_show.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/xiayang_qt/test.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/xuqiu20190320.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/magcore_xy/main_function.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/auto_delete_file/auto_delete_file.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/auto_delete/auto_delete.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/auto_clean_disk/auto_clean_disk.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/test.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/http_server_with_photo/test.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/http_server_with_photo/http_server_with_photo.py" />
-        <option value="$PROJECT_DIR$/../xiayang_py/http_server_with_photo/index.html" />
+        <option value="$PROJECT_DIR$/日常练习/字典扁平化.py" />
+        <option value="$PROJECT_DIR$/日常练习/最长公共子串.py" />
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="502" />
+    <option name="y" value="85" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <showMembers ProjectPane="true" />
-      <autoscrollToSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="xy_py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiayang_py" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiayang_py" type="47feb1d3:ProjectViewModuleNode" />
             </path>
             <path>
-              <item name="xy_py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiayang_py" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiayang_py" type="47feb1d3:ProjectViewModuleNode" />
               <item name="xiayang_py" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xy_py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiayang_py" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiayang_py" type="47feb1d3:ProjectViewModuleNode" />
               <item name="xiayang_py" type="462c0819:PsiDirectoryNode" />
-              <item name="http_server_with_photo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xy_py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiayang_py" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="You-are-Pythonista" type="462c0819:PsiDirectoryNode" />
+              <item name="日常练习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MagCoreGroup" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/xiayang_py/运维脚本/start.py&#10;sett&#9;ACTION&#9;Database.Settings" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="xiayang_py" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="xiayang_py" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\homework\P17043-class-leader\self_small_trainning" />
+      <recent name="D:\You-are-Pythonista\PythonExercise\Operation\simple_monitor" />
+      <recent name="D:\You-are-Pythonista\OnePiece\clients" />
+      <recent name="D:\xiayang_py\magcore_xy" />
+      <recent name="D:\xiayang_py\auth" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xiayang_py\python17\第一周" />
-      <recent name="D:\xiayang_py\python17" />
-      <recent name="D:\xiayang_py\web框架" />
       <recent name="D:\xiayang_py" />
-      <recent name="D:\xiayang_py\day06" />
+      <recent name="D:\You-are-Pythonista\PythonExercise\Tool" />
+      <recent name="D:\You-are-Pythonista\PythonExercise" />
+      <recent name="D:\homework\P17043-class-leader" />
+      <recent name="D:\MagCoreGroup\client_src\wangtiejiang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,24 +380,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.http_server_with_photo">
-    <configuration name="xiayang" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$/../xiayang_js">
+  <component name="RunManager" selected="Python.字典扁平化">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" path-to-node="C:/Program Files/nodejs/node" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="auto_clean_disk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="杨辉三角" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xiayang_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../xiayang_py/auto_clean_disk" />
+      <option name="SDK_HOME" value="ssh://xiayang@122.226.109.133:7823/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_xy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../xiayang_py/auto_clean_disk/auto_clean_disk.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/日常练习/杨辉三角.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,20 +406,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="auto_delete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="字典扁平化" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xiayang_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../xiayang_py/auto_delete" />
+      <option name="SDK_HOME" value="ssh://xiayang@122.226.109.133:7823/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_xy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../xiayang_py/auto_delete/auto_delete.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/日常练习/字典扁平化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,7 +428,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="http_server_with_photo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="xiayang_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="ssh://xiayang@122.226.109.133:7823/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_xy" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cpu密集型与io密集型的性能比较" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="xiayang_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="ssh://xiayang@122.226.109.133:7823/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_xy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/日常练习/cpu密集型与io密集型的性能比较.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ls (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="xiayang_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,12 +480,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../xiayang_py/http_server_with_photo" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="/" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../xiayang_py/http_server_with_photo/http_server_with_photo.py" />
+      <option name="SCRIPT_NAME" value="&lt;354f8530-6193-4134-aeae-ebc57a1f7205&gt;/python_xy/ls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,13 +501,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../xiayang_py" />
+      <option name="SDK_HOME" value="ssh://xiayang@122.226.109.133:7823/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_xy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../xiayang_py/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,7 +516,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="xiayang_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="ssh://xiayang@122.226.109.133:7823/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_xy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/日常练习/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
       <module name="xiayang_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,12 +546,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../xiayang_py/http_server_with_photo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../xiayang_py/http_server_with_photo/test.py" />
+      <option name="SCRIPT_NAME" value="D:\xiayang_py\xml模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -413,21 +584,39 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="xiayang_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Node.js.xiayang" />
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.auto_delete" />
-      <item itemvalue="Python.auto_clean_disk" />
-      <item itemvalue="Python.http_server_with_photo" />
+      <item itemvalue="Node.js.Unnamed" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.ls (1)" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.cpu密集型与io密集型的性能比较" />
+      <item itemvalue="Python.test (2)" />
+      <item itemvalue="Python.杨辉三角" />
+      <item itemvalue="Python.字典扁平化" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.http_server_with_photo" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.auto_clean_disk" />
+        <item itemvalue="Python.字典扁平化" />
+        <item itemvalue="Python.杨辉三角" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.auto_delete" />
+        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.cpu密集型与io密集型的性能比较" />
       </list>
     </recent_temporary>
   </component>
@@ -436,61 +625,428 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff8e4724-1917-4838-a47a-cc8af4d63efd" name="Default" comment="" />
-      <created>1516546024872</created>
+      <changelist id="7c56890d-ad76-48d2-b940-fb34a4d6285e" name="Default" comment="" />
+      <created>1503035594874</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1516546024872</updated>
-      <workItem from="1552967423051" duration="7361000" />
-      <workItem from="1553049473690" duration="2936000" />
-      <workItem from="1553222486687" duration="7354000" />
-      <workItem from="1553482859063" duration="3093000" />
-      <workItem from="1553570002680" duration="35621000" />
-      <workItem from="1553740394398" duration="8609000" />
+      <updated>1503035594874</updated>
+      <workItem from="1552459332965" duration="11136000" />
+      <workItem from="1552533973551" duration="8921000" />
+      <workItem from="1552872647644" duration="9061000" />
+      <workItem from="1552889994415" duration="384000" />
+      <workItem from="1554803102984" duration="3175000" />
+      <workItem from="1554954731121" duration="7931000" />
+      <workItem from="1555054306444" duration="15763000" />
+      <workItem from="1555395267108" duration="2834000" />
+      <workItem from="1555409153374" duration="6528000" />
+      <workItem from="1555896613380" duration="28247000" />
+      <workItem from="1556259104926" duration="31000" />
+      <workItem from="1556259136332" duration="216000" />
+      <workItem from="1556259892938" duration="1702000" />
+      <workItem from="1556414611767" duration="305000" />
+      <workItem from="1556526725382" duration="334000" />
+      <workItem from="1556591230540" duration="7158000" />
+      <workItem from="1557058710306" duration="14263000" />
+      <workItem from="1557318530820" duration="5816000" />
+      <workItem from="1557715719092" duration="2549000" />
+      <workItem from="1558957378779" duration="1204000" />
+      <workItem from="1559206558137" duration="184000" />
+      <workItem from="1560324642844" duration="17336000" />
+      <workItem from="1560508088178" duration="599000" />
+      <workItem from="1560756918401" duration="11297000" />
+      <workItem from="1561103385153" duration="5588000" />
+      <workItem from="1561347955285" duration="30557000" />
+      <workItem from="1561950888699" duration="5660000" />
+      <workItem from="1562730076728" duration="8778000" />
     </task>
+    <task id="LOCAL-00002" summary="20180524">
+      <created>1527149852039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527149852039</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20180524">
+      <created>1527149888635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527149888635</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20180524">
+      <created>1527486877458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527486877458</updated>
+    </task>
+    <task id="LOCAL-00005" summary="20180524">
+      <created>1527589493267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527589493267</updated>
+    </task>
+    <task id="LOCAL-00006" summary="20180604">
+      <created>1528106830568</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528106830568</updated>
+    </task>
+    <task id="LOCAL-00007" summary="20180605">
+      <created>1528182453494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528182453494</updated>
+    </task>
+    <task id="LOCAL-00008" summary="20180605">
+      <created>1528187089492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528187089492</updated>
+    </task>
+    <task id="LOCAL-00009" summary="20180606">
+      <created>1528262126418</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528262126418</updated>
+    </task>
+    <task id="LOCAL-00010" summary="20180608">
+      <created>1528426086346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528426086347</updated>
+    </task>
+    <task id="LOCAL-00011" summary="20180608">
+      <created>1528445883763</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528445883763</updated>
+    </task>
+    <task id="LOCAL-00012" summary="20180626">
+      <created>1529984755735</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1529984755735</updated>
+    </task>
+    <task id="LOCAL-00013" summary="20180705">
+      <created>1530776897205</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1530776897205</updated>
+    </task>
+    <task id="LOCAL-00014" summary="20180705">
+      <created>1530787593625</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1530787593625</updated>
+    </task>
+    <task id="LOCAL-00015" summary="20180706">
+      <created>1530872098947</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1530872098947</updated>
+    </task>
+    <task id="LOCAL-00016" summary="20180706">
+      <created>1530872124226</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1530872124226</updated>
+    </task>
+    <task id="LOCAL-00017" summary="20180706">
+      <created>1530872176881</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1530872176881</updated>
+    </task>
+    <task id="LOCAL-00018" summary="20180709">
+      <created>1531108449731</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1531108449731</updated>
+    </task>
+    <task id="LOCAL-00019" summary="20180716">
+      <created>1531722411248</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1531722411249</updated>
+    </task>
+    <task id="LOCAL-00020" summary="20180716">
+      <created>1531728815020</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1531728815020</updated>
+    </task>
+    <task id="LOCAL-00021" summary="20180725">
+      <created>1532519276705</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1532519276706</updated>
+    </task>
+    <task id="LOCAL-00022" summary="20180725">
+      <created>1532521212999</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1532521212999</updated>
+    </task>
+    <task id="LOCAL-00023" summary="20180727">
+      <created>1532680307693</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1532680307693</updated>
+    </task>
+    <task id="LOCAL-00024" summary="20180730">
+      <created>1532917014211</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1532917014211</updated>
+    </task>
+    <task id="LOCAL-00025" summary="20180809">
+      <created>1533783725210</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1533783725210</updated>
+    </task>
+    <task id="LOCAL-00026" summary="20180809">
+      <created>1533785400108</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1533785400108</updated>
+    </task>
+    <task id="LOCAL-00027" summary="20180817">
+      <created>1534477810274</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1534477810274</updated>
+    </task>
+    <task id="LOCAL-00028" summary="20180817">
+      <created>1534478418521</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1534478418521</updated>
+    </task>
+    <task id="LOCAL-00029" summary="20180822">
+      <created>1534919364574</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1534919364574</updated>
+    </task>
+    <task id="LOCAL-00030" summary="20180827">
+      <created>1535358470267</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1535358470267</updated>
+    </task>
+    <task id="LOCAL-00031" summary="20180904">
+      <created>1536025226695</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1536025226695</updated>
+    </task>
+    <task id="LOCAL-00032" summary="20180914">
+      <created>1536919566110</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1536919566110</updated>
+    </task>
+    <task id="LOCAL-00033" summary="20181008">
+      <created>1538965290399</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1538965290399</updated>
+    </task>
+    <task id="LOCAL-00034" summary="20181023">
+      <created>1540263505168</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1540263505168</updated>
+    </task>
+    <task id="LOCAL-00035" summary="20181028">
+      <created>1540699694194</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1540699694194</updated>
+    </task>
+    <task id="LOCAL-00036" summary="20181029">
+      <created>1540780475161</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1540780475161</updated>
+    </task>
+    <task id="LOCAL-00037" summary="20181029">
+      <created>1540781093623</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1540781093623</updated>
+    </task>
+    <task id="LOCAL-00038" summary="20181029">
+      <created>1540783002627</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1540783002627</updated>
+    </task>
+    <task id="LOCAL-00039" summary="20181029-2">
+      <created>1540783241274</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1540783241274</updated>
+    </task>
+    <task id="LOCAL-00040" summary="20181029-3">
+      <created>1540783750531</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1540783750531</updated>
+    </task>
+    <task id="LOCAL-00041" summary="20181029-1">
+      <created>1540784268805</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1540784268805</updated>
+    </task>
+    <task id="LOCAL-00042" summary="20181029-2">
+      <created>1540784354754</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1540784354754</updated>
+    </task>
+    <task id="LOCAL-00043" summary="20181029-3">
+      <created>1540784414279</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1540784414279</updated>
+    </task>
+    <task id="LOCAL-00044" summary="20181029-4">
+      <created>1540819228528</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1540819228528</updated>
+    </task>
+    <task id="LOCAL-00045" summary="20181203">
+      <created>1543829019178</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1543829019178</updated>
+    </task>
+    <task id="LOCAL-00046" summary="20181204">
+      <created>1543893887882</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1543893887882</updated>
+    </task>
+    <task id="LOCAL-00047" summary="20181204">
+      <created>1543893903866</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1543893903866</updated>
+    </task>
+    <task id="LOCAL-00048" summary="20181204-02">
+      <created>1543894392659</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1543894392659</updated>
+    </task>
+    <task id="LOCAL-00049" summary="20181204-03">
+      <created>1543894455337</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1543894455337</updated>
+    </task>
+    <task id="LOCAL-00050" summary="20190221 magcore客户端登陆逻辑">
+      <created>1550739754475</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1550739754475</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_greenlet协程_py - 2018.06.01 at 23h 20m 40s.xml">
-      <configuration name="Unittests in greenlet协程.py" configurationId="tests" />
+    <history-entry file="Test__mysite - 2018.08.16 at 19h 33m 49s.xml">
+      <configuration name="Test: mysite" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Unittests_in_greenlet协程_py - 2018.06.01 at 23h 21m 01s.xml">
-      <configuration name="Unittests in greenlet协程.py" configurationId="tests" />
+    <history-entry file="Unittests_in_decorator_py - 2018.01.25 at 17h 28m 10s.xml">
+      <configuration name="Unittests in decorator.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_greenlet协程_py - 2018.06.01 at 23h 21m 43s.xml">
-      <configuration name="Unittests in greenlet协程.py" configurationId="tests" />
+    <history-entry file="Unittests_in_decorator_py - 2018.01.25 at 17h 28m 54s.xml">
+      <configuration name="Unittests in decorator.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_greenlet协程_py - 2018.06.01 at 23h 21m 57s.xml">
-      <configuration name="Unittests in greenlet协程.py" configurationId="tests" />
+    <history-entry file="Unittests_in_decorator_py - 2018.01.25 at 17h 34m 17s.xml">
+      <configuration name="Unittests in decorator.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_greenlet协程_py - 2018.06.01 at 23h 22m 39s.xml">
-      <configuration name="Unittests in greenlet协程.py" configurationId="tests" />
+    <history-entry file="Unittests_in_decorator_py - 2018.01.25 at 17h 34m 28s.xml">
+      <configuration name="Unittests in decorator.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_greenlet协程_py - 2018.06.01 at 23h 22m 50s.xml">
-      <configuration name="Unittests in greenlet协程.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py - 2018.01.18 at 16h 22m 16s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_greenlet协程_py - 2018.06.01 at 23h 22m 57s.xml">
-      <configuration name="Unittests in greenlet协程.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py - 2018.01.19 at 13h 47m 06s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_greenlet协程_py - 2018.06.01 at 23h 25m 44s.xml">
-      <configuration name="Unittests in greenlet协程.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py - 2018.01.19 at 13h 47m 16s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_协程2_py - 2018.06.01 at 23h 26m 27s.xml">
-      <configuration name="Unittests in 协程2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py - 2018.01.19 at 13h 47m 36s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_协程2_py - 2018.06.09 at 18h 46m 58s.xml">
-      <configuration name="Unittests in 协程2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_py - 2018.01.20 at 15h 32m 32s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64974000" />
+    <option name="totallyTimeSpent" value="207557000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
     <todo-panel id="all">
-      <are-packages-shown value="true" />
+      <are-modules-shown value="true" />
+      <flatten-packages value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
@@ -498,35 +1054,136 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.21781115" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50537634" side_tool="true" weight="0.1503856" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49624464" visible="true" weight="0.31445086" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293011" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5037554" side_tool="true" weight="0.31560692" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3293011" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19489247" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48824343" visible="true" weight="0.22263949" />
+      <window_info id="Structure" order="1" weight="0.24902344" />
+      <window_info id="Favorites" order="2" sideWeight="0.5117566" side_tool="true" weight="0.15879828" />
+      <window_info anchor="bottom" id="File Transfer" order="0" sideWeight="0.5209227" weight="0.14450867" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4774678" weight="0.24624278" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.47907725" side_tool="true" visible="true" weight="0.27745664" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.67542917" weight="0.43468207" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.47460938" weight="0.2644342" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.47854078" side_tool="true" weight="0.18612717" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4780043" weight="0.27283236" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5214592" side_tool="true" weight="0.2716763" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49731758" weight="0.3283237" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.12714592" />
+      <window_info anchor="right" id="Data View" order="4" weight="0.32910156" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3295699" />
+      <window_info anchor="right" id="SciView" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20180706" />
+    <MESSAGE value="20180709" />
+    <MESSAGE value="20180716" />
+    <MESSAGE value="20180725" />
+    <MESSAGE value="20180727" />
+    <MESSAGE value="20180730" />
+    <MESSAGE value="20180809" />
+    <MESSAGE value="20180817" />
+    <MESSAGE value="20180822" />
+    <MESSAGE value="20180827" />
+    <MESSAGE value="20180904" />
+    <MESSAGE value="20180914" />
+    <MESSAGE value="20181008" />
+    <MESSAGE value="20181023" />
+    <MESSAGE value="20181028" />
+    <MESSAGE value="20181029" />
+    <MESSAGE value="20181029-1" />
+    <MESSAGE value="20181029-2" />
+    <MESSAGE value="20181029-3" />
+    <MESSAGE value="20181029-4" />
+    <MESSAGE value="20181203" />
+    <MESSAGE value="20181204" />
+    <MESSAGE value="20181204-02" />
+    <MESSAGE value="20181204-03" />
+    <MESSAGE value="20190221 magcore客户端登陆逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190221 magcore客户端登陆逻辑" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/日常练习/map.reduce.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/日常练习/map.reduce.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/日常练习/excel.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/game_update/py_threading_pool.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xysite/manage.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/日常练习/简单python监控实现.py</url>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -537,331 +1194,324 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day07/属性方法示例（航空公司）.py">
+    <entry file="file://$PROJECT_DIR$/日常练习/decorator_test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
+        <state relative-caret-position="-708" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/实例属性和类属性.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/日常练习/image.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web框架示例.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.txt" />
-    <entry file="file://$PROJECT_DIR$/day07/属性方法测试.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/web-forms.rnc" />
-    <entry file="file://$PROJECT_DIR$/day14/20181014.2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/20181013.1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/20181014.3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/迭代器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/生成器并行.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/temp.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/subprocess.py" />
-    <entry file="file://$PROJECT_DIR$/python_exercise_20181124.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ls实现.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
-    <entry file="file://$PROJECT_DIR$/python_exercise_20181118.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2916">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.json" />
-    <entry file="file://$PROJECT_DIR$/python17/第一周作业/store_table" />
-    <entry file="file://$PROJECT_DIR$/python17/第一周作业/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python17/第一周作业/作业内容.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python17/第一周作业/store_file.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python17/第一周作业/001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="20" selection-end-line="75" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20181229.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web框架/wsgify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web框架/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190106.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/类装饰器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/软件目录调用技巧">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/xuqiu20190320.py" />
-    <entry file="file://$PROJECT_DIR$/爬虫测试.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/click_and_show/click_and_show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/xiayang_qt/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MagCoreGroup/resource/ApiGuide/GameList_CN.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MagCoreGroup/resource/ApiGuide/DataMap_CN.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MagCoreGroup/resource/ApiGuide/GetGame_CN.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/magcore_xy/game_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MagCoreGroup/resource/ApiGuide/JoinGame_CN.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/magcore_xy/main_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/simple_gui_browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1538">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/auto_clean_disk/auto_clean_disk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-            <marker date="1553586864748" expanded="true" signature="829:1187" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/wsgiref/simple_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/file_transfer/file_transfer_client.py">
+    <entry file="file://$PROJECT_DIR$/日常练习/简单框架示例.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-840">
           <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/拉链法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/三生三世.js" />
+    <entry file="file://$PROJECT_DIR$/show_log_web_page/show_log_web_page/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#641#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/haha.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/base64编码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网站代码1.0/weixinweb.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网站代码1.0/weixinweb/apps/mobile/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网站代码1.0/weixinweb/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="94" column="68" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网站代码1.0/weixinweb/templates/shenqing.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1111.html" />
+    <entry file="file://$PROJECT_DIR$/运维脚本/autobak.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_log_web_page/show_log_web_page/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_log_web_page/show_log_web_page/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="20" />
+          <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/http_server_with_photo/test.py" />
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/http_server_with_photo/image.jpg">
+    <entry file="file://$PROJECT_DIR$/show_log_web_page/show_log_web_page/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/queues.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/multiprocessing/queues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Operation/collect_system_info/collect_system_info.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Operation/simple_monitor/simple_monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/lru缓存装饰器实现.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2632">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1556593502913" expanded="true" signature="1079:1127" ph="..." />
+            <marker date="1556593502913" expanded="true" signature="2178:2195" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/thread_test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/auto_clean_disk/auto_clean_disk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homework/P17006-诸葛建鑫/10blog/myblog-0.1.1/PKG-INFO">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homework/P17006-诸葛建鑫/10blog/myblog-0.1.1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="28">
+            <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/cpu密集型与io密集型的性能比较.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="239" column="4" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_update/new_remote.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维脚本/线程信号量实现服务器并发执行命令.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="1609" column="17" selection-start-line="1609" selection-start-column="17" selection-end-line="1609" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维脚本/mengxin_hefu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1301">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="346" column="30" lean-forward="true" selection-start-line="346" selection-start-column="30" selection-end-line="346" selection-end-column="30" />
+          <folding>
+            <element signature="e#7590#7601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="885" column="29" selection-start-line="885" selection-start-column="15" selection-end-line="885" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homework/P17043-class-leader/self_small_trainning/hefu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="134" column="24" lean-forward="true" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维脚本/hefu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding>
+            <element signature="e#36#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="263" column="21" lean-forward="true" selection-start-line="263" selection-start-column="21" selection-end-line="263" selection-end-column="21" />
+          <folding>
+            <element signature="e#4707#4720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/Homework/kidult/lz_episode_01/1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Tool/file_transfer/file_transfer_server.py">
+    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/Homework/Aaronwa/lz_episode_01/Fibonacci_sequence.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/Homework/Aaronwa/lz_episode_01/Fibonacci_sequence.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/Homework/Aaronwa/lz_episode_01/Prime_number.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/Homework/mona/lz_episode_04/super.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1456">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state>
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../You-are-Pythonista/PythonExercise/Operation/simple_http_server/simple_http_server.py">
+    <entry file="file://$PROJECT_DIR$/earthtemp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="-560">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/http_server_with_photo/http_server_with_photo.py">
+    <entry file="file://$PROJECT_DIR$/日常练习/杨辉三角.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-756103818/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="247" column="14" selection-start-line="247" selection-start-column="4" selection-end-line="247" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/多线程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../xiayang_py/http_server_with_photo/index.html">
+    <entry file="file://$PROJECT_DIR$/日常练习/字典扁平化.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="506">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常练习/最长公共子串.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
