@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义用户注册界面</title>
+    <link rel="stylesheet" type="text/css" href="outstyle.css">
+</head>
+<body>
+<div>
+    <img id="bg" src="http://pic4.bbzhi.com/jingxuanbizhi/1920x1080gaoqingbizhixiazai/1920x1080gaoqingbizhixiazai_360971_18.jpg">
+    <div id="registerform">
+        <form name="input" action="url_form_action">
+            <fieldset>
+                <legend>用户注册</legend>
+                <table>
+                    <tr>
+                        <td>
+                            用户名:
+                        </td>
+                        <td>
+                            <input type='text' name="username">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            密码:
+                        </td>
+                        <td>
+                            <input type="password" name="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>备注：</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea rows="5" cols="40" name="comment"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>性别</td>
+                        <td>
+                            男性:<input type="radio" checked="checkd" name="sex" value="male">
+                            女性:<input type="radio" checked="checked" name="sex" value="female">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>学历:</td>
+                        <td>
+                            <select name="grade">
+                                <option value="middle_school">高中及以下</option>
+                                <option value="high_school">高中</option>
+                                <option value="bachlor">本科</option>
+                                <option value="master>">研究生及以上</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">兴趣爱好：</td>
+                        <td>
+                            运动:<input type="checkbox" name="sport">
+                            看电影:<input type="checkbox" name="movie">
+                            听音乐:<input type="checkbox" name="music">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            编程:<input type="checkbox" name="code">
+                            下厨:<input type="checkbox" name="cooke">
+                            旅游:<input type="checkbox" name="tour">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>头像上传:</td>
+                        <td><input type="file" name="pic" accept=".png, .jpg, .gif"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" style="width:95px;height:50px" name="submit" value="注册"></td>
+                    </tr>
+                </table>
+                </fieldset>
+        </form>
+    </div>
+</div>
+</body>
+</html>

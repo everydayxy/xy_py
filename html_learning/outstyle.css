@@ -1,0 +1,27 @@
+.myclass {
+    color:green;
+    margin-left:30px;
+}
+
+#a1+#a2{
+    background: #000000;
+    color:yellow
+}
+
+#registerform {
+    margin:0px;
+    padding:0px;
+    background-color:#E7EAEB;
+    font-family:"微软雅黑","黑体","宋体";
+    font-size:12px;
+    position: absolute;
+    height:368px;
+    width: 600px;
+    right: 210px;
+    top: 400px
+}
+
+#bg {
+    width:100%;height:100%;position:absolute;
+}
+
