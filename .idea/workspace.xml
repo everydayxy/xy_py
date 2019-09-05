@@ -380,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.字典扁平化">
+  <component name="RunManager" selected="Node.js.Unnamed">
     <configuration name="Unnamed" type="NodeJSConfigurationType" path-to-node="C:/Program Files/nodejs/node" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -608,11 +608,9 @@
       <item itemvalue="Python.cpu密集型与io密集型的性能比较" />
       <item itemvalue="Python.test (2)" />
       <item itemvalue="Python.杨辉三角" />
-      <item itemvalue="Python.字典扁平化" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.字典扁平化" />
         <item itemvalue="Python.杨辉三角" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test (2)" />

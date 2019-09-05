@@ -1,0 +1,31 @@
+
+还款 = repay
+取现 = withdraw
+转账 = transfer
+
+还款 = 减去账户金额
+取现 = 减去账户金额
+转账 = 减去账户金额，增加对方账户金额
+
+def load_current_user_data(account_id):
+    with open('') as f:
+
+
+def minus_money(account,amount):
+
+def add_money(account,amount):
+
+def withdraw(account_data,amount):
+    user = load_current_user_data(account_data['account_id'])
+    current_info = '''
+    credit: %s
+    balance: %s '''
+    % (account_data[credit],account_data[balance])
+    
+    print(current_info)
+    minus_money(account,amount)
+
+
+def transaction(transfer_type,account,amount,logger):
+
+
