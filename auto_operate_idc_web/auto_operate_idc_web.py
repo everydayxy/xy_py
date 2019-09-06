@@ -246,8 +246,8 @@ if __name__ == '__main__':
 
     time.sleep(3)
 
-    USERNAME = 'xiayang'
-    PASSWORD = 'xiayang189'
+    USERNAME = ''
+    PASSWORD = ''
 
     hosts_lists, ip_lists, gametype = get_config()
 
