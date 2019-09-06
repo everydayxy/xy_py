@@ -161,8 +161,10 @@ def change_server_status_online_gameserver(company,usage,name):
 
     # 填写运营商信息
     company_xpath = "//div[@class='el-select-dropdown el-popper']/div[1]/div[1]/ul/li/span[text()='{}']".format(company)
-    driver.find_element_by_xpath(company_xpath).click()
-    time.sleep(3)
+    print(company_xpath)
+    element_company = driver.find_element_by_xpath(company_xpath)
+    driver.execute_script("arguments[0].click();", element_company)
+    time.sleep(2)
 
     # 点击运营状态下拉菜单
     driver.find_element_by_xpath("//form[@class='el-form host-form']/div[1]/div[2]/div[5]/div/div/div/input").click()
@@ -177,8 +179,9 @@ def change_server_status_online_gameserver(company,usage,name):
     time.sleep(1)
 
     # 修改运营状态为所选游戏
-    driver.find_element_by_xpath("//div[@class='el-select-dropdown el-popper']/div[1]/div[1]/ul/li/span[text()={}]".format(gametype)).click()
-    time.sleep(1)
+    element_game = driver.find_element_by_xpath("//div[@class='el-select-dropdown el-popper']/div[1]/div[1]/ul/li/span[text()={}]".format(gametype))
+    driver.execute_script("arguments[0].click();", element_game)
+    time.sleep(2)
 
     # 选择日期时间下拉菜单
     driver.find_element_by_xpath("//form[@class='el-form host-form']/div[1]/div[3]/div[6]/div[1]/div[1]/input").click()
@@ -243,8 +246,8 @@ if __name__ == '__main__':
 
     time.sleep(3)
 
-    USERNAME = ''
-    PASSWORD = ''
+    USERNAME = 'xiayang'
+    PASSWORD = 'xiayang189'
 
     hosts_lists, ip_lists, gametype = get_config()
 
@@ -259,11 +262,9 @@ if __name__ == '__main__':
     print(hosts_lists, ip_lists, gametype)
 
     # 合余操作函数调用
-    operate_merge_after(ip_lists)
+    # operate_merge_after(ip_lists)
 
     # 上线操作函数调用
-    # operate_online_server(hosts_lists)
+    operate_online_server(hosts_lists)
 
     driver.quit()
-
-
